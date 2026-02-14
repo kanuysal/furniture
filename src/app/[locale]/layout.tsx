@@ -113,7 +113,7 @@ export default async function LocaleLayout({
           ${syne.variable} ${marcellus.variable}`}
             >
                 <NextIntlClientProvider messages={messages}>
-                    <ThemeProvider defaultTheme="light">
+                    <ThemeProvider defaultTheme="dark">
                         <VideoProvider>
                             {children}
                         </VideoProvider>

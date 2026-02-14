@@ -34,12 +34,18 @@ const HeroBannerOne = () => {
                 />
               </div>
               <div className="tp-hero-title-box text-center p-relative">
+                <span className="tp-hero-subtitle d-block mb-15 tp_fade_bottom" style={{
+                  fontSize: '14px',
+                  textTransform: 'uppercase',
+                  letterSpacing: '2px',
+                  fontWeight: 500,
+                  opacity: 0.8
+                }}>
+                  <span dangerouslySetInnerHTML={{ __html: t('subtitle').replace('<br />', ' ').replace('<br />', ' ') }} />
+                </span>
                 <h1 className="tp-hero-title tp_fade_bottom">
                   <span className="p-relative">
                     {t('title_part1')}
-                    <span className="tp-hero-subtitle d-none d-lg-block " style={{ left: '-15%', transform: 'translateX(-50%)', textAlign: 'left' }}>
-                      <span dangerouslySetInnerHTML={{ __html: t('subtitle') }} />
-                    </span>
                     <span className="tp-hero-shape-2 d-none d-md-block">
                       <Image
                         src="/assets/img/home-01/hero/hero-shape-1-1.png"
@@ -72,8 +78,8 @@ const HeroBannerOne = () => {
               </p>
             </div>
 
-            <div className="tp-hero-bottom-img-wrap tp_fade_bottom mt-50 mb-50">
-              <div className="tp-hero-bottom-img" style={{ borderRadius: '10px', overflow: 'hidden' }}>
+            <div className="tp-hero-bottom-img-wrap tp_fade_bottom mt-50 mb-50" style={{ width: '100%', maxWidth: '100%' }}>
+              <div className="tp-hero-bottom-img" style={{ borderRadius: '10px', overflow: 'hidden', width: '100%' }}>
                 <video
                   onEnded={() => {
                     const next = (currentVideoIndex + 1) % 5;
@@ -84,18 +90,16 @@ const HeroBannerOne = () => {
                   muted
                   autoPlay
                   loop={false}
-
                   ref={(el) => {
                     if (el) {
                       el.playbackRate = 1.0;
-                      // Force play on source change if needed, though react handles src update usually
                       const playPromise = el.play();
                       if (playPromise !== undefined) {
                         playPromise.catch(() => { });
                       }
                     }
                   }}
-                  style={{ width: '100%', height: 'auto', display: 'block' }}
+                  style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }}
                 />
               </div>
             </div>

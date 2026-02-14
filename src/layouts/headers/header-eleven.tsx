@@ -34,7 +34,7 @@ export default function HeaderEleven({ transparent = false, cls = '' }: IProps) 
           <div className="row align-items-center">
             <div className="col-xl-2 col-lg-6 col-6">
               <Link href="/">
-                <h3 className="mb-0" style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '40px', color: transparent ? '#fff' : '#000' }}>Mina Design.</h3>
+                <h3 className="mb-0" style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '40px', color: '#fff' }}>Mina Design.</h3>
               </Link>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function HeaderEleven({ transparent = false, cls = '' }: IProps) 
   );
 
   // Logical color helper
-  const isWhite = theme === "dark" || (transparent && !isSticky);
+  const isWhite = theme === "dark";
   const textColor = isWhite ? '#fff' : '#000';
 
   return (
@@ -75,7 +75,7 @@ export default function HeaderEleven({ transparent = false, cls = '' }: IProps) 
                   <div className="tp-inner-header-menu header-main-menu">
                     <nav className="tp-main-menu-content">
                       {/* header menus */}
-                      <HeaderMenus />
+                      <HeaderMenus textColor={textColor} />
                       {/* header menus */}
                     </nav>
                   </div>
