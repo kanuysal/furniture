@@ -74,7 +74,7 @@ const ServiceOne = () => {
                   </div>
                   <div className="tp-service-content">
                     <h4 className="tp-service-title-sm order-0">
-                      <Link href="/service-details">{s.title}</Link>
+                      <Link href="/service">{s.title}</Link>
                     </h4>
                     <p className="order-1">{s.desc}</p>
                   </div>

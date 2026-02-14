@@ -10,7 +10,7 @@ type IProps = {
   teamItem: ITeamDT;
 };
 
-export default function TeamModal({showModal,setShowModal,teamItem}: IProps) {
+export default function TeamModal({ showModal, setShowModal, teamItem }: IProps) {
   const handleClose = () => setShowModal(false);
   return (
     <Modal
@@ -24,7 +24,7 @@ export default function TeamModal({showModal,setShowModal,teamItem}: IProps) {
         <button type="button" className="btn-close"></button>
       </Modal.Header>
       <Modal.Body>
-        <TeamDetailsArea id={1} />
+        <TeamDetailsArea id={teamItem.id} />
       </Modal.Body>
     </Modal>
   );

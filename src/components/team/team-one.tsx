@@ -10,7 +10,7 @@ import TeamModal from "../modal/team-modal";
 
 const slider_setting: SwiperOptions = {
   slidesPerView: 6,
-  loop: true,
+  loop: false,
   autoplay: false,
   spaceBetween: 30,
   breakpoints: {

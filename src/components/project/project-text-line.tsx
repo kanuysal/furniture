@@ -8,60 +8,62 @@ import shape from "@/assets/img/home-01/project/project-shape-1-1.png";
 const ProjectTextLine = () => {
   useGSAP(() => {
     gsap.set(".tp-project-textline", {
-      x: "25%",
+      x: "10%",
     });
 
     gsap
       .timeline({
         scrollTrigger: {
-          trigger: ".tp-project-textline ",
-          start: "-1500 10%",
-          end: "bottom 20%",
-          scrub: true,
+          trigger: ".tp-project-textline",
+          start: "top bottom",
+          end: "bottom top",
+          scrub: 1,
           invalidateOnRefresh: true,
         },
       })
-      .to(".tp-project-textline ", {
-        x: "-80%",
+      .to(".tp-project-textline", {
+        x: "-100%",
       });
   });
+
   return (
     <div
       className="tp-project-textline tp-project-effect mb-115"
       data-scrub="0.0001"
+      style={{ color: '#fff' }}
     >
-      <span className="textline-1">
+      <span className="textline-1" style={{ color: '#fff' }}>
         Mina
         <span>
           <Image src={shape} alt="shape" />
         </span>
         Design
       </span>
-      <span className="textline-2">Collections</span>
-      <span className="textline-1">
+      <span className="textline-2" style={{ WebkitTextStrokeColor: '#fff', color: 'transparent' }}>Collections</span>
+      <span className="textline-1" style={{ color: '#fff' }}>
         Co
         <span>
           <Image src={shape} alt="shape" />
         </span>
         lest
       </span>
-      <span className="textline-2">Project</span>
-      <span className="textline-1">
+      <span className="textline-2" style={{ WebkitTextStrokeColor: '#fff', color: 'transparent' }}>Project</span>
+      <span className="textline-1" style={{ color: '#fff' }}>
         Co
         <span>
           <Image src={shape} alt="shape" />
         </span>
         lest
       </span>
-      <span className="textline-2">Project</span>
-      <span className="textline-1">
+      <span className="textline-2" style={{ WebkitTextStrokeColor: '#fff', color: 'transparent' }}>Project</span>
+      <span className="textline-1" style={{ color: '#fff' }}>
         Co
         <span>
           <Image src={shape} alt="shape" />
         </span>
         lest
       </span>
-      <span className="textline-2">Project</span>
+      <span className="textline-2" style={{ WebkitTextStrokeColor: '#fff', color: 'transparent' }}>Project</span>
     </div>
   );
 };

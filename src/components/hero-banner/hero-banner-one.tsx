@@ -34,12 +34,20 @@ const HeroBannerOne = () => {
                 />
               </div>
               <div className="tp-hero-title-box text-center p-relative">
-                <span className="tp-hero-subtitle d-block mb-15 tp_fade_bottom" style={{
-                  fontSize: '14px',
+                <span className="tp-hero-subtitle tp_fade_bottom" style={{
+                  position: 'absolute',
+                  left: '20px',
+                  top: '150px',
+                  transform: 'rotate(90deg)',
+                  transformOrigin: 'left top',
+                  fontSize: '12px',
                   textTransform: 'uppercase',
-                  letterSpacing: '2px',
+                  letterSpacing: '4px',
                   fontWeight: 500,
-                  opacity: 0.8
+                  opacity: 0.6,
+                  zIndex: 20,
+                  whiteSpace: 'nowrap',
+                  color: '#fff'
                 }}>
                   <span dangerouslySetInnerHTML={{ __html: t('subtitle').replace('<br />', ' ').replace('<br />', ' ') }} />
                 </span>

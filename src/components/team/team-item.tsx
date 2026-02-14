@@ -23,11 +23,8 @@ export default function TeamItem({ item, handleTeamModal }: IProps) {
       </div>
       <div className="tp-team-content">
         <span>{item.designation}</span>
-        <h4
-          className="tp-team-title-sm"
-          onClick={() => handleTeamModal(item)}
-        >
-          <Link href={`/team-details/${item.id}`}>{item.name}</Link>
+        <h4 className="tp-team-title-sm">
+          <span style={{ cursor: 'pointer' }} onClick={() => handleTeamModal(item)}>{item.name}</span>
         </h4>
       </div>
     </div>

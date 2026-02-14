@@ -9,7 +9,7 @@ import { useTranslations } from "next-intl";
 
 const slider_setting: SwiperOptions = {
   slidesPerView: 1,
-  loop: true,
+  loop: false,
   autoplay: true,
   speed: 1000,
   breakpoints: {
