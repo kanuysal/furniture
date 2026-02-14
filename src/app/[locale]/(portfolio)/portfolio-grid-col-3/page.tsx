@@ -10,7 +10,7 @@ export function generateStaticParams() {
 
 
 export const metadata: Metadata = {
-  title: "Liko - Portfolio Grid Col 3 page",
+  title: "Mina Design | Premium Collections",
 };
 
 const PortfolioGridColThreePage = async ({ params }: { params: Promise<{ locale: string }> }) => {

@@ -7,6 +7,10 @@ import { Link } from "@/navigation";
 
 import { useTranslations } from "next-intl";
 
+type IProps = {
+  style_2?: boolean;
+};
+
 export default function PortfolioGridColThreeArea({ style_2 = false }: IProps) {
   const t = useTranslations('Portfolio');
   const tNav = useTranslations('Navigation');

@@ -6,9 +6,10 @@
     "Navigation": {
         "home": "Inicio",
         "about": "Nosotros",
-        "services": "Servicios",
+        "process": "Proceso",
         "projects": "Colecciones",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "follow_us": "Síganos"
     },
     "Settings": {
         "title": "Configuración de Pantalla",
@@ -26,6 +27,56 @@
         "title": "El mueble está en nuestro ADN.",
         "para1": "\"Para nosotros, el mueble no es solo una mercancía; es un legado. Nacidos y criados en İnegöl, el corazón de la industria del mueble en Turquía, crecimos en los talleres donde el serrín se convierte en arte.\"",
         "para2": "Combinamos esta comprensión innata de la artesanía con la precisión de la Ingeniería Industrial (Alumni UPV). Sabemos qué madera dura toda la vida, qué tela resiste el tráfico de un hotel y qué junta nunca crujirá. No solo suministramos muebles; garantizamos 'Calidad de Herencia': piezas construidas para durar generaciones."
+    },
+    "Capacity": {
+        "title": "Capacidad Operativa",
+        "partners_label": "Socios de Fabricación",
+        "partners_desc": "Acceso directo a los mejores talleres artesanales y fábricas de alta tecnología de İnegöl.",
+        "heritage_label": "Años de Herencia",
+        "heritage_desc": "Nacido en la capital del mueble, perfeccionado con Ingeniería Industrial.",
+        "qc_label": "Control de Calidad (QC)",
+        "qc_desc": "Cada puntada y junta se inspecciona antes del envío. Cero defectos.",
+        "customs_label": "Sin complicaciones de aduanas",
+        "customs_desc": "Nos encargamos de todos los derechos de importación. Entrega directa en su puerta en España (DDP)."
+    },
+    "Contact": {
+        "hero_title": "Diseñemos <br /> Su Visión",
+        "hero_subtitle": "Agencia Mina Design | Soluciones de Muebles",
+        "form_title": "El mueble está en nuestro ADN.",
+        "form_desc1": "Crecimos en İnegöl, donde el mueble is una herencia. Combinamos esto con la precisión de la ingeniería para entregar calidad de herencia.",
+        "form_desc2": "¿Necesita un socio para su próximo proyecto en España? Hablamos su idioma y entendemos el alma de la madera.",
+        "name": "Nombre / Apellidos",
+        "name_placeholder": "Su nombre completo",
+        "company": "Nombre de la Empresa",
+        "company_placeholder": "B2B / Estudio de Arquitectura / Entidad",
+        "project_type": "Tipo de Proyecto",
+        "project_type_placeholder": "Seleccione Tipo de Proyecto",
+        "budget": "Presupuesto Estimado (Opcional)",
+        "budget_placeholder": "Presupuesto aproximado en EUR",
+        "message": "Mensaje",
+        "message_placeholder": "Cuéntenos su visión...",
+        "send": "Enviar Mensaje",
+        "spain_office": {
+            "title": "SEDE EN ESPAÑA (La Cara)",
+            "subtitle": "Gestión de Proyectos y Legal",
+            "address": "03802 Alcoy, Alicante, España.",
+            "desc": "Somos sus vecinos locales. Visítenos para un café y asesoramiento.",
+            "hours": "Disponible los 7 días de la semana"
+        },
+        "turkey_office": {
+            "title": "CENTRO DE SUMINISTRO (El Motor)",
+            "subtitle": "Producción y Control de Calidad",
+            "address": "Mobilium AVM, İnegöl, Bursa, Turquía.",
+            "desc": "El epicentro de nuestra red de fabricación de más de 4000 socios.",
+            "hours": "Horario de producción"
+        }
+    },
+    "Footer": {
+        "desc": "Puente entre la artesanía de Anatolia y el diseño europeo.",
+        "copyright": "© {year} Mina Design Suministro de Muebles. Todos los derechos reservados.",
+        "about_us": "Nosotros",
+        "location_spain": "Alicante, España",
+        "location_turkey": "İnegöl, Turquía"
     },
     "Services": {
         "title_subtitle": "Nuestra Experiencia",
@@ -52,33 +103,45 @@
         "item5_title": "Madera Ecológica",
         "item6_title": "Salones Comerciales"
     },
+    "Awards": {
+        "title": "Nuestros Premios",
+        "title_part1": "Logística",
+        "title_part2": "y Excelencia en Calidad",
+        "item1_subtitle": "España",
+        "item1_title": "Excelencia Logística Regional",
+        "item2_subtitle": "Alicante",
+        "item2_title": "Estándares de Calidad Europeos",
+        "item3_subtitle": "İnegöl",
+        "item3_title": "Centro Directo Integrado",
+        "item4_subtitle": "DDP",
+        "item4_title": "Cadena de Suministro Sin Fisuras",
+        "item5_subtitle": "B2B",
+        "item5_title": "Suministro de Proyectos Hoteleros",
+        "item6_subtitle": "B2B",
+        "item6_title": "Socios de Cadenas Retail"
+    },
+    "Testimonials": {
+        "item1_desc": "“Mina Design ha sido nuestro puente hacia la artesanía turca. Su equipo local en İnegöl asegura que cada pieza cumpla con nuestros estándares de lujo en España.”",
+        "item1_name": "Andrés García",
+        "item1_designation": "Diseñador de Interiores, Madrid",
+        "item2_desc": "“La logística DDP de Turquía a Alicante sonaba compleja, pero Mina Design se encargó de todo. Los precios directos de fabricante nos ahorraron más del 30%.”",
+        "item2_name": "Elena Rodriguez",
+        "item2_designation": "Compras de Hotel, Valencia"
+    },
+    "Values": {
+        "title": "Nuestros Valores",
+        "furniture": "MUEBLES",
+        "modern": "MODERNO",
+        "quality": "CALIDAD",
+        "fast": "RÁPIDO",
+        "zero_stress": "SIN ESTRÉS",
+        "sourcing": "SUMINISTRO"
+    },
     "Common": {
         "view_gallery": "Ver<br />Galería",
         "follow_us": "Síganos",
         "say_hello": "Diga hola en:",
         "information": "Información"
-    },
-    "Contact": {
-        "hero_title": "Diseñemos <br /> Su Visión",
-        "hero_subtitle": "Agencia Mina Design | Soluciones de Muebles",
-        "form_title": "El mueble está en nuestro ADN.",
-        "form_desc1": "Crecimos en İnegöl, donde el mueble es una herencia. Combinamos esto con la precisión de la ingeniería para entregar calidad de herencia.",
-        "form_desc2": "¿Necesita un socio para su próximo proyecto en España? Hablamos su idioma y entendemos el alma de la madera."
-    },
-    "Footer": {
-        "desc": "Puente entre la artesanía de Anatolia y el diseño europeo.",
-        "copyright": "© {year} Mina Design Suministro de Muebles. Todos los derechos reservados."
-    },
-    "Capacity": {
-        "title": "Capacidad Operativa",
-        "partners_label": "Socios de Fabricación",
-        "partners_desc": "Acceso directo a los mejores talleres artesanales y fábricas de alta tecnología de İnegöl.",
-        "heritage_label": "Años de Herencia",
-        "heritage_desc": "Nacido en la capital del mueble, perfeccionado con Ingeniería Industrial.",
-        "qc_label": "Control de Calidad (QC)",
-        "qc_desc": "Cada puntada y junta se inspecciona antes del envío. Cero defectos.",
-        "customs_label": "Sin complicaciones de aduanas",
-        "customs_desc": "Nos encargamos de todos los derechos de importación. Entrega directa en su puerta en España (DDP)."
     },
     "AboutHero": {
         "scroll": "Desliza para explorar",
@@ -93,6 +156,8 @@
         "btn": "Ponte <br /> En Contacto"
     },
     "Portfolio": {
+        "curated_title": "Selección Curada",
+        "curated_desc": "Las imágenes a continuación son solo un vistazo de nuestras capacidades. Nuestra red de suministro en Inagol, la capital del mueble de Turquía, ofrece opciones ilimitadas más allá de estas categorías. Entregamos sin complicaciones, directamente en su puerta, encargándonos de todas las aduanas y logística. Contáctenos para nuestro catálogo exclusivo completo.",
         "filter_all": "Ver Todo",
         "filter_luxury": "Lujo",
         "filter_modular": "Modular",
@@ -109,7 +174,7 @@
         "item8_title": "Era Dorada",
         "item9_title": "Toque Real",
         "item10_title": "Líneas Elegantes",
-        "item11_title": "Prestigio",
+        "item11_title": "Prestige",
         "item12_title": "Vibra Clásica",
         "item13_title": "Madera Maciza",
         "item14_title": "Esencia de Roble",
@@ -144,5 +209,95 @@
         "a2": "Absolutamente. Somos especialistas en 'Fabricación bajo Pedido'. Dimensiones, telas, acabados e incluso la ingeniería estructural pueden ajustarse a las necesidades de su proyecto.",
         "q3": "¿Cuál es el pedido mínimo?",
         "a3": "Somos flexibles. Nuestra red nos permite gestionar desde una única pieza a medida para una villa de lujo hasta el mobiliario completo de un hotel de 500 habitaciones."
+    },
+    "ServicesPage": {
+        "hero_title": "Suministro de Ingeniería. <br /> Ejecución Impecable.",
+        "hero_desc": "No solo compramos y vendemos. Diseñamos la cadena de suministro desde las líneas de producción de İnegöl hasta sus instalaciones en España. Gestionado por Ingenieros Industriales, ejecutado por maestros artesanos.",
+        "methodology_subtitle": "La Metodología",
+        "methodology_title": "La Visión del Ingeniero sobre la <br /> Artesanía Turca",
+        "methodology_para1": "\"El suministro internacional de muebles a menudo conlleva riesgos: variaciones de calidad, retrasos y lagunas de comunicación. En Mina Design, eliminamos estas variables utilizando principios de Ingeniería Industrial.",
+        "methodology_para2": "Fundada por un Alumni de la UPV (Universitat Politècnica de València) y Nativo de İnegöl, la capital del mueble de Turquía, nuestra agencia une dos mundos. Combinamos los estándares técnicos europeos con el poder de fabricación de Anatolia. Cada proyecto se trata como una operación de ingeniería, optimizada en coste, calidad y plazo de entrega.\"",
+        "protocol_subtitle": "El Protocolo",
+        "protocol_title": "Nuestro Protocolo Técnico de 4 Pasos",
+        "protocol": {
+            "phase1_subtitle": "FASE UNO",
+            "phase1_title": "Consultoría Técnica y Análisis",
+            "phase1_desc": "Comenzamos analizando los archivos de su proyecto (CAD/Especificaciones). No solo presupuestamos; optimizamos. Emparejamos sus requisitos específicos con la instalación exacta que se especializa en ese dominio.",
+            "phase1_list": [
+                "Optimización Técnica/CAD",
+                "Especificación de Materiales (Madera maciza, Tapicería, Metal)",
+                "Mapeo de Red de Más de 4000 Fabricantes",
+                "Benchmarking de Coste-Calidad"
+            ],
+            "phase2_subtitle": "FASE DOS",
+            "phase2_title": "Ingeniería de Producción y QA",
+            "phase2_desc": "Una vez que comienza la producción, estamos en la fábrica. Implementamos puntos de control de Calidad (QC) en tiempo real para garantizar que cada pieza cumpla con los estándares técnicos europeos.",
+            "phase2_list": [
+                "Puntos de Control de QC en Tiempo Real",
+                "Informes de Progreso en Vídeo Semanales",
+                "Supervisión de Ingeniería Industrial",
+                "Auditorías de Conformidad Técnica"
+            ],
+            "phase3_subtitle": "FASE TRES",
+            "phase3_title": "El Algoritmo Logístico",
+            "phase3_desc": "Nos encargamos de la parte compleja. Documentación de exportación, despacho de aduanas y optimización de fletes. Nuestros socios especializados garantizan que sus bienes viajen seguros desde Bursa hasta la Península Ibérica.",
+            "phase3_list": [
+                "Optimización de Flete",
+                "Gestión de Despacho de Aduanas",
+                "Planificación de la Ruta de Bursa a España",
+                "Cobertura de Seguro Total"
+            ],
+            "phase4_subtitle": "FASE CUATRO",
+            "phase4_title": "Entrega DDP (Puerta a Puerta)",
+            "phase4_desc": "El tramo final. Entregamos bajo términos DDP (Delivered Duty Paid). Nos encargamos de todos los impuestos de importación y procedimientos de IVA en España. Usted recibe los bienes como si los hubiera comprado localmente.",
+            "phase4_list": [
+                "Delivered Duty Paid (DDP)",
+                "Gestión de Impuestos de Importación e IVA",
+                "Entrega en Obra/Hotel/Almacén",
+                "Coordinación de Instalación Final"
+            ]
+        },
+        "qa_subtitle": "Garantía de Calidad",
+        "qa_title": "Nuestros Mecanismos de Control",
+        "qa": {
+            "item1_title": "Inspección de Materia Prima:",
+            "item1_desc": "Niveles de humedad de la madera, pruebas de durabilidad de la tela y verificación de la densidad de la espuma.",
+            "item2_title": "Auditorías de Producción en Línea:",
+            "item2_desc": "Verificaciones de estructura y uniones en cada etapa del montaje.",
+            "item3_title": "Inspección Final Pre-Embarque (PSI):",
+            "item3_desc": "Verificación estricta del embalaje y auditoría estética final antes de la carga.",
+            "item4_title": "100% Transparencia:",
+            "item4_desc": "Si se encuentra un defecto, se corrige antes de que salga de la fábrica. Informes semanales incluidos."
+        },
+        "foundation_title": "Base Estratégica",
+        "foundation_desc": "Excelencia en ingeniería en cada etapa del ciclo de suministro.",
+        "foundation": {
+            "item1_title": "Ingeniería Industrial",
+            "item1_sub": "Impulsado por la Precisión",
+            "item1_hover": "Aplicación de principios de optimización a cada etapa de la producción.",
+            "item2_title": "Alumni UPV",
+            "item2_sub": "Estándares Europeos",
+            "item2_hover": "Fusión de las expectativas de diseño españolas con el poder turco.",
+            "item3_title": "Nativo de İnegöl",
+            "item3_sub": "Poder Local",
+            "item3_hover": "Acceso directo al corazón del mundo de la fabricación de muebles.",
+            "item4_title": "QC en Tiempo Real",
+            "item4_sub": "Cero Fallos",
+            "item4_hover": "Monitoreo constante para asegurar una ejecución impecable antes del embarque.",
+            "item5_title": "Algoritmo Logístico",
+            "item5_sub": "Despacho Legal",
+            "item5_hover": "Documentación compleja gestionada con eficiencia matemática.",
+            "item6_title": "Puerta a Puerta",
+            "item6_sub": "Entrega DDP",
+            "item6_hover": "Entregado con impuestos pagados, igual que una compra local en España.",
+            "item7_title": "De CAD a Fábrica",
+            "item7_sub": "Optimización Técnica",
+            "item7_hover": "Traducción de sus dibujos técnicos en productos perfectos.",
+            "item8_title": "100% Transparencia",
+            "item8_sub": "Control Total",
+            "item8_hover": "Informes semanales en vídeo para mantenerle siempre al tanto."
+        },
+        "cta_title": "¿Listo para optimizar su suministro?",
+        "cta_btn": "SÍ"
     }
 }

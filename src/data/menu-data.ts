@@ -16,7 +16,7 @@ const menu_data: (IMenuDT & { key?: string })[] = [
   {
     id: 3,
     title: 'Process',
-    key: 'services',
+    key: 'process',
     link: '/service',
   },
   {
@@ -63,7 +63,7 @@ export const mobile_menu_data: {
     {
       id: 3,
       title: 'Process',
-      key: 'services',
+      key: 'process',
       link: '/service',
       dropdown_menus: []
     },

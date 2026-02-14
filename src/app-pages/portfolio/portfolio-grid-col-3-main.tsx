@@ -16,8 +16,10 @@ import FooterOne from "@/layouts/footers/footer-one";
 // animation
 import { hoverBtn } from "@/utils/hover-btn";
 import { charAnimation, fadeAnimation, titleAnimation, zoomAnimation } from "@/utils/title-animation";
+import { useTranslations } from "next-intl";
 
 const PortfolioGridColThreeMain = () => {
+  const t = useTranslations('Portfolio');
   useScrollSmooth();
 
   useEffect(() => {
@@ -68,15 +70,12 @@ const PortfolioGridColThreeMain = () => {
                     <div className="tm-hero-content">
                       <span className="tm-hero-subtitle">Mina Design</span>
                       <h4 className="tm-hero-title fs-220 tp-char-animation">
-                        Curated Selection
+                        {t('curated_title')}
                       </h4>
                     </div>
                     <div className="tm-hero-text tp_title_anim">
                       <p>
-                        The images below are just a glimpse of our capabilities. Our sourcing network in
-                        Inagol—Turkey's furniture capital—offers unlimited options beyond these categories.
-                        We deliver hassle-free, directly to your door, handling all customs and logistics.
-                        Contact us for our full exclusive catalog.
+                        {t('curated_desc')}
                       </p>
                     </div>
                   </div>

@@ -1,6 +1,8 @@
+import { useTranslations } from "next-intl";
 import BrandSlider from "./brand-slider";
 
 const BrandOne = () => {
+  const t = useTranslations('Values');
   return (
     <div className="tp-brand-area">
       <div className="container container-1630">
@@ -8,7 +10,7 @@ const BrandOne = () => {
           <div className="row align-items-center">
             <div className="col-xxl-2 col-xl-3 col-lg-3">
               <div className="tp-brand-title-box">
-                <h4 className="tp-brand-title tp_fade_bottom">Our Core Values</h4>
+                <h4 className="tp-brand-title tp_fade_bottom">{t('title')}</h4>
               </div>
             </div>
             <div className="col-xxl-10 col-xl-9 col-lg-9">

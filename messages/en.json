@@ -6,9 +6,10 @@
     "Navigation": {
         "home": "Home",
         "about": "About",
-        "services": "Services",
-        "projects": "Projects",
-        "contact": "Contact"
+        "process": "Process",
+        "projects": "Collections",
+        "contact": "Contact",
+        "follow_us": "Follow Us"
     },
     "Settings": {
         "title": "Display Settings",
@@ -43,11 +44,39 @@
         "hero_subtitle": "Mina Design Agency | Furniture Solutions",
         "form_title": "Furniture is in our DNA.",
         "form_desc1": "We grew up in İnegöl, where furniture is a heritage. We combine this with engineering precision to deliver heirloom quality.",
-        "form_desc2": "Need a partner for your next project in Spain? We speak your language and understand the soul of wood."
+        "form_desc2": "Need a partner for your next project in Spain? We speak your language and understand the soul of wood.",
+        "name": "Name / Surname",
+        "name_placeholder": "Your full name",
+        "company": "Company Name",
+        "company_placeholder": "B2B / Architecture Firm / Entity",
+        "project_type": "Project Type",
+        "project_type_placeholder": "Select Project Type",
+        "budget": "Estimated Budget (Optional)",
+        "budget_placeholder": "Approximate budget in EUR",
+        "message": "Message",
+        "message_placeholder": "Tell us about your vision...",
+        "send": "Send Message",
+        "spain_office": {
+            "title": "SPANISH HEADQUARTERS (The Face)",
+            "subtitle": "Project Management & Legal",
+            "address": "03802 Alcoy, Alicante, Spain.",
+            "desc": "We are your local neighbors. Visit us for a coffee and consultation.",
+            "hours": "Available 7 days a week"
+        },
+        "turkey_office": {
+            "title": "SOURCING HUB (The Engine)",
+            "subtitle": "Production & Quality Control",
+            "address": "Mobilium AVM, İnegöl, Bursa, Turkiye.",
+            "desc": "The epicenter of our manufacturing network of 4000+ partners.",
+            "hours": "Production hours"
+        }
     },
     "Footer": {
         "desc": "Bridge Between Anatolian Craftsmanship & European Design.",
-        "copyright": "© {year} Mina Design Furniture Sourcing. All Rights Reserved."
+        "copyright": "© {year} Mina Design Furniture Sourcing. All Rights Reserved.",
+        "about_us": "About Us",
+        "location_spain": "Alicante, Spain",
+        "location_turkey": "İnegöl, Türkiye"
     },
     "Services": {
         "title_subtitle": "Our Expertise",
@@ -74,6 +103,15 @@
         "item5_title": "Eco Friendly Wood",
         "item6_title": "Commercial Lounging"
     },
+    "Values": {
+        "title": "Our Core Values",
+        "furniture": "FURNITURE",
+        "modern": "MODERN",
+        "quality": "QUALITY",
+        "fast": "FAST",
+        "zero_stress": "ZERO STRESS",
+        "sourcing": "SOURCING"
+    },
     "Common": {
         "view_gallery": "View<br />Gallery",
         "follow_us": "Follow Us",
@@ -81,6 +119,7 @@
         "information": "Information"
     },
     "Awards": {
+        "title": "Our Awards",
         "title_part1": "Logistics",
         "title_part2": "Quality Excellence",
         "item1_subtitle": "Spain",
@@ -128,6 +167,8 @@
         "btn": "Get In Touch"
     },
     "Portfolio": {
+        "curated_title": "Curated Selection",
+        "curated_desc": "The images below are just a glimpse of our capabilities. Our sourcing network in Inagol—Turkey's furniture capital—offers unlimited options beyond these categories. We deliver hassle-free, directly to your door, handling all customs and logistics. Contact us for our full exclusive catalog.",
         "filter_all": "Show All",
         "filter_luxury": "Luxury",
         "filter_modular": "Modular",
@@ -179,5 +220,95 @@
         "a2": "Absolutely. We are 'Made-to-Order' specialists. Dimensions, fabrics, finishes, and even structural engineering can be adjusted to your project’s needs.",
         "q3": "What is the minimum order?",
         "a3": "We are flexible. Our network allows us to handle everything from a single bespoke statement piece for a luxury villa to full furnishing for a 500-room hotel."
+    },
+    "ServicesPage": {
+        "hero_title": "Engineered Sourcing. <br /> Flawless Execution.",
+        "hero_desc": "We don’t just buy and sell. We engineer the supply chain from İnegöl’s production lines to your facility in Spain. Managed by Industrial Engineers, executed by master craftsmen.",
+        "methodology_subtitle": "The Methodology",
+        "methodology_title": "The Engineer’s Eye on <br /> Turkish Craftsmanship",
+        "methodology_para1": "\"Sourcing furniture internationally often comes with risks: quality variation, delays, and communication gaps. At Mina Design, we eliminate these variables using Industrial Engineering principles.",
+        "methodology_para2": "Founded by a UPV (Universitat Politècnica de València) Alumni and Native of İnegöl—the furniture capital of Turkiye—our agency bridges two worlds. We combine European technical standards with Anatolian manufacturing power. Every project is treated as an engineering operation, optimized for cost, quality, and lead time.\"",
+        "protocol_subtitle": "The Protocol",
+        "protocol_title": "Our 4-Step Technical Protocol",
+        "protocol": {
+            "phase1_subtitle": "PHASE ONE",
+            "phase1_title": "Technical Consultation & Analysis",
+            "phase1_desc": "We start by analyzing your project files (CAD/Specs). We don't just quote; we optimize. We match your specific requirements with the exact facility that specializes in that domain.",
+            "phase1_list": [
+                "CAD/Technical Optimization",
+                "Material Specification (Solid wood, Upholstery, Metal)",
+                "4000+ Manufacturer Network Mapping",
+                "Cost-Quality Benchmarking"
+            ],
+            "phase2_subtitle": "PHASE TWO",
+            "phase2_title": "Production Engineering & QA",
+            "phase2_desc": "Once production starts, we are on the factory floor. We implement Real-Time Quality Control (QC) checkpoints to ensure every piece meets European technical standards.",
+            "phase2_list": [
+                "Real-Time QC Checkpoints",
+                "Weekly Video Progress Reports",
+                "Industrial Engineering Supervision",
+                "Technical Compliance Audits"
+            ],
+            "phase3_subtitle": "PHASE THREE",
+            "phase3_title": "The Logistics Algorithm",
+            "phase3_desc": "We handle the complex part. Export documentation, customs clearance, and freight optimization. Our specialized partners ensure your goods travel safely from Bursa to the Iberian Peninsula.",
+            "phase3_list": [
+                "Freight Optimization",
+                "Customs Clearance Management",
+                "Bursa to Spain Route Planning",
+                "Full Insurance Coverage"
+            ],
+            "phase4_subtitle": "PHASE FOUR",
+            "phase4_title": "DDP Delivery (Door-to-Door)",
+            "phase4_desc": "The final leg. We deliver under DDP (Delivered Duty Paid) terms. We handle all import taxes and VAT procedures in Spain. You receive the goods as if you bought them locally.",
+            "phase4_list": [
+                "Delivered Duty Paid (DDP)",
+                "Import Tax & VAT Management",
+                "Site/Hotel/Warehouse Delivery",
+                "Final Installation Coordination"
+            ]
+        },
+        "qa_subtitle": "Quality Assurance",
+        "qa_title": "Our Control Mechanisms",
+        "qa": {
+            "item1_title": "Raw Material Inspection:",
+            "item1_desc": "Wood moisture levels, Fabric durability tests, and foam density verification.",
+            "item2_title": "In-Line Production Audits:",
+            "item2_desc": "Skeleton & Joinery checks at every stage of assembly.",
+            "item3_title": "Final Pre-Shipment Inspection (PSI):",
+            "item3_desc": "Strict packaging verification and final aesthetic audit before loading.",
+            "item4_title": "100% Transparency:",
+            "item4_desc": "If a defect is found, it is fixed before it leaves the factory. Weekly reports included."
+        },
+        "foundation_title": "Strategic Foundation",
+        "foundation_desc": "Engineering excellence at every stage of the procurement cycle.",
+        "foundation": {
+            "item1_title": "Industrial Engineering",
+            "item1_sub": "Precision-Driven",
+            "item1_hover": "Applying optimization principles to every stage of production.",
+            "item2_title": "UPV Alumni",
+            "item2_sub": "European Standards",
+            "item2_hover": "Merging Spanish design expectations with Turkish power.",
+            "item3_title": "İnegöl Native",
+            "item3_sub": "Local Power",
+            "item3_hover": "Direct access to the heart of the furniture manufacturing world.",
+            "item4_title": "Real-Time QC",
+            "item4_sub": "Zero Failure",
+            "item4_hover": "Constant monitoring to ensure flawless execution before shipment.",
+            "item5_title": "Logistics Algorithm",
+            "item5_sub": "Legal Clearance",
+            "item5_hover": "Complex documentation handled with mathematical efficiency.",
+            "item6_title": "Door-to-Door",
+            "item6_sub": "DDP Delivery",
+            "item6_hover": "Delivered tax-paid, just like a local purchase in Spain.",
+            "item7_title": "CAD to Factory",
+            "item7_sub": "Technical Optimization",
+            "item7_hover": "Translating your technical drawings into perfect products.",
+            "item8_title": "100% Transparency",
+            "item8_sub": "Full Control",
+            "item8_hover": "Weekly video reports to keep you always in the loop."
+        },
+        "cta_title": "Ready to optimize your procurement?",
+        "cta_btn": "YES"
     }
 }

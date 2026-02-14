@@ -6,9 +6,10 @@
     "Navigation": {
         "home": "Accueil",
         "about": "À propos",
-        "services": "Services",
+        "process": "Processus",
         "projects": "Projets",
-        "contact": "Contact"
+        "contact": "Contact",
+        "follow_us": "Suivez-nous"
     },
     "Hero": {
         "subtitle": "Fournisseur <br /> de meubles <br /> fiable",
@@ -57,6 +58,40 @@
         "item5_title": "Bois Écologique",
         "item6_title": "Salones Commerciaux"
     },
+    "Awards": {
+        "title": "Nos Prix",
+        "title_part1": "Logistique",
+        "title_part2": "& Excellence Qualité",
+        "item1_subtitle": "Espagne",
+        "item1_title": "Excellence Logistique Régionale",
+        "item2_subtitle": "Alicante",
+        "item2_title": "Normes de Qualité Européennes",
+        "item3_subtitle": "İnegöl",
+        "item3_title": "Centre Direct Intégré",
+        "item4_subtitle": "DDP",
+        "item4_title": "Chaîne d'Approvisionnement Fluide",
+        "item5_subtitle": "B2B",
+        "item5_title": "Sourcing de Projets Hôteliers",
+        "item6_subtitle": "B2B",
+        "item6_title": "Partenaires de Chaînes de Détail"
+    },
+    "Testimonials": {
+        "item1_desc": "“Mina Design a été notre pont vers l'artisanat turc. Leur équipe locale à İnegöl s'assure que chaque pièce répond à nos standards de luxe en Espagne.”",
+        "item1_name": "Andrés García",
+        "item1_designation": "Architecte d'intérieur, Madrid",
+        "item2_desc": "“La logistique DDP de la Turquie à Alicante semblait complexe, mais Mina Design s'est occupé de tout. Les prix directs d'usine nous ont fait économiser plus de 30%.”",
+        "item2_name": "Elena Rodriguez",
+        "item2_designation": "Achats Hôteliers, Valence"
+    },
+    "Values": {
+        "title": "Nos Valeurs",
+        "furniture": "MEUBLES",
+        "modern": "MODERNE",
+        "quality": "QUALITÉ",
+        "fast": "RAPIDE",
+        "zero_stress": "SANS STRESS",
+        "sourcing": "SOURCING"
+    },
     "Common": {
         "view_gallery": "Voir<br />Galerie",
         "follow_us": "Suivez-nous",
@@ -72,6 +107,9 @@
     },
     "Footer": {
         "desc": "Pont entre l'artisanat anatolien et le design européen.",
-        "copyright": "© {year} Mina Design Sourcing de meubles. Tous droits réservés."
+        "copyright": "© {year} Mina Design Sourcing de meubles. Tous droits réservés.",
+        "about_us": "À propos de nous",
+        "location_spain": "Alicante, Espagne",
+        "location_turkey": "İnegöl, Turquie"
     }
 }

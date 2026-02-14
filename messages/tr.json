@@ -6,9 +6,10 @@
     "Navigation": {
         "home": "Anasayfa",
         "about": "Hakkımızda",
-        "services": "Hizmetler",
-        "projects": "Projeler",
-        "contact": "İletişim"
+        "process": "Süreç",
+        "projects": "Koleksiyonlar",
+        "contact": "İletişim",
+        "follow_us": "Bizi Takip Edin"
     },
     "Settings": {
         "title": "Görünüm Ayarları",
@@ -43,11 +44,39 @@
         "hero_subtitle": "Mina Design Ajansı | Mobilya Çözümleri",
         "form_title": "Mobilya Bizim DNA'mızda Var.",
         "form_desc1": "Mobilyanın bir miras olduğu İnegöl'de büyüdük. Bunu mühendislik hassasiyetiyle birleştirerek yadigâr kalitede ürünler sunuyoruz.",
-        "form_desc2": "İspanya'daki projeniz için bir ortağa mı ihtiyacınız var? Dilinizi konuşuyor ve ahşabın ruhunu anlıyoruz."
+        "form_desc2": "İspanya'daki projeniz için bir ortağa mı ihtiyacınız var? Dilinizi konuşuyor ve ahşabın ruhunu anlıyoruz.",
+        "name": "Ad / Soyad",
+        "name_placeholder": "Tam adınız",
+        "company": "Şirket Adı",
+        "company_placeholder": "B2B / Mimarlık Ofisi / Kurum",
+        "project_type": "Proje Türü",
+        "project_type_placeholder": "Proje Türünü Seçin",
+        "budget": "Tahmini Bütçe (Opsiyonel)",
+        "budget_placeholder": "EUR cinsinden yaklaşık bütçe",
+        "message": "Mesaj",
+        "message_placeholder": "Vizyonunuzdan bahsedin...",
+        "send": "Mesaj Gönder",
+        "spain_office": {
+            "title": "İSPANYA MERKEZİ (Görünen Yüz)",
+            "subtitle": "Proje Yönetimi ve Hukuki İşler",
+            "address": "03802 Alcoy, Alicante, İspanya.",
+            "desc": "Yerel komşunuzuz. Bir kahve ve danışmanlık için bizi ziyaret edin.",
+            "hours": "Haftanın 7 günü hizmetinizdeyiz"
+        },
+        "turkey_office": {
+            "title": "TEDARİK MERKEZİ (Motor Gücü)",
+            "subtitle": "Üretim ve Kalite Kontrol",
+            "address": "Mobilium AVM, İnegöl, Bursa, Türkiye.",
+            "desc": "4000'den fazla ortağımızdan oluşan üretim ağımızın merkez üssü.",
+            "hours": "Üretim saatleri"
+        }
     },
     "Footer": {
         "desc": "Anadolu Zanaatı ve Avrupa Tasarımı Arasındaki Köprü.",
-        "copyright": "© {year} Mina Design Mobilya Tedariği. Tüm Hakları Saklıdır."
+        "copyright": "© {year} Mina Design Mobilya Tedariği. Tüm Hakları Saklıdır.",
+        "about_us": "Hakkımızda",
+        "location_spain": "Alicante, İspanya",
+        "location_turkey": "İnegöl, Türkiye"
     },
     "Services": {
         "title_subtitle": "Uzmanlığımız",
@@ -74,6 +103,40 @@
         "item5_title": "Çevre Dostu Ahşap",
         "item6_title": "Ticari Dinlenme Alanları"
     },
+    "Awards": {
+        "title": "Ödüllerimiz",
+        "title_part1": "Lojistik",
+        "title_part2": "ve Kalite Mükemmelliği",
+        "item1_subtitle": "İspanya",
+        "item1_title": "Bölgesel Lojistik Başarısı",
+        "item2_subtitle": "Alicante",
+        "item2_title": "Avrupa Kalite Standartları",
+        "item3_subtitle": "İnegöl",
+        "item3_title": "Doğrudan Merkez Entegrasyonu",
+        "item4_subtitle": "DDP",
+        "item4_title": "Sorunsuz Tedarik Zinciri",
+        "item5_subtitle": "B2B",
+        "item5_title": "Otel Proje Tedariği",
+        "item6_subtitle": "B2B",
+        "item6_title": "Perakende Zinciri Ortaklığı"
+    },
+    "Testimonials": {
+        "item1_desc": "“Mina Design, Türk zanaatkarlığına açılan köprümüz oldu. İnegöl'deki yerel ekipleri, her parçanın İspanya'daki lüks standartlarımızı karşılamasını sağlıyor.”",
+        "item1_name": "Andrés García",
+        "item1_designation": "İç Mimar, Madrid",
+        "item2_desc": "“Türkiye'den Alicante'ye DDP lojistiği karmaşık görünüyordu, ancak Mina Design her şeyi halletti. Doğrudan üretici fiyatlandırması bize %30'dan fazla tasarruf sağladı.”",
+        "item2_name": "Elena Rodriguez",
+        "item2_designation": "Otel Satın Alma, Valencia"
+    },
+    "Values": {
+        "title": "Değerlerimiz",
+        "furniture": "MOBİLYA",
+        "modern": "MODERN",
+        "quality": "KALİTE",
+        "fast": "HIZLI",
+        "zero_stress": "SIFIR STRES",
+        "sourcing": "TEDARİK"
+    },
     "Common": {
         "view_gallery": "Galeriyi<br />Gör",
         "follow_us": "Bizi Takip Edin",
@@ -93,6 +156,8 @@
         "btn": "İletişime <br /> Geçin"
     },
     "Portfolio": {
+        "curated_title": "Seçilmiş Koleksiyon",
+        "curated_desc": "Aşağıdaki görseller yeteneklerimizin sadece bir kısmıdır. Türkiye'nin mobilya başkenti İnegöl'deki tedarik ağımız, bu kategorilerin ötesinde sınırsız seçenek sunar. Tüm gümrük ve lojistik işlemlerini yürüterek doğrudan kapınıza sorunsuz teslimat yapıyoruz. Özel kataloğumuzun tamamı için bizimle iletişime geçin.",
         "filter_all": "Tümünü Göster",
         "filter_luxury": "Lüks",
         "filter_modular": "Modüler",
@@ -144,5 +209,95 @@
         "a2": "Kesinlikle. Biz 'Sipariş Üzerine Üretim' uzmanlarıyız. Boyutlar, kumaşlar, cila ve hatta yapısal mühendislik projenizin ihtiyaçlarına göre ayarlanabilir.",
         "q3": "Minimum sipariş miktarı nedir?",
         "a3": "Esneğiz. Ağımız, lüks bir villa için tek parça özel bir üründen, 500 odalı bir otelin tam tefrişatına kadar her şeyi yönetmemize olanak tanır."
+    },
+    "ServicesPage": {
+        "hero_title": "Mühendislik Temelli Tedarik. <br /> Kusursuz Uygulama.",
+        "hero_desc": "Sadece alıp satmıyoruz. İnegöl'deki üretim hatlarından İspanya'daki tesisinize kadar tedarik zincirini kurguluyoruz. Endüstri Mühendisleri tarafından yönetilir, usta zanaatkarlar tarafından uygulanır.",
+        "methodology_subtitle": "Metodoloji",
+        "methodology_title": "Türk Zanaatkarlığına <br /> Mühendis Gözüyle Bakış",
+        "methodology_para1": "\"Uluslararası mobilya tedariği genellikle risklerle gelir: kalite değişkenliği, gecikmeler ve iletişim kopuklukları. Mina Design'da bu değişkenleri Endüstri Mühendisliği prensiplerini kullanarak ortadan kaldırıyoruz.",
+        "methodology_para2": "UPV (Valencia Politeknik Üniversitesi) mezunu ve Türkiye'nin mobilya başkenti İnegöl'ün yerlisi tarafından kurulan ajansımız, iki dünya arasında köprü kuruyor. Avrupa teknik standartlarını Anadolu üretim gücüyle birleştiriyoruz. Her proje bir mühendislik operasyonu olarak ele alınır; maliyet, kalite ve teslim süresi için optimize edilir.\"",
+        "protocol_subtitle": "Protokol",
+        "protocol_title": "4 Adımlı Teknik Protokolümüz",
+        "protocol": {
+            "phase1_subtitle": "BİRİNCİ AŞAMA",
+            "phase1_title": "Teknik Danışmanlık ve Analiz",
+            "phase1_desc": "Proje dosyalarınızı (CAD/Şartnameler) analiz ederek başlıyoruz. Sadece fiyat vermiyoruz; optimize ediyoruz. Özel gereksinimlerinizi, o alanda uzmanlaşmış tesisle eşleştiriyoruz.",
+            "phase1_list": [
+                "CAD/Teknik Optimizasyon",
+                "Malzeme Belirleme (Masif ahşap, Döşeme, Metal)",
+                "4000+ Üretici Ağ Haritalama",
+                "Maliyet-Kalite Kıyaslaması"
+            ],
+            "phase2_subtitle": "İKİNCİ AŞAMA",
+            "phase2_title": "Üretim Mühendisliği ve Kalite Güvence",
+            "phase2_desc": "Üretim başladığında fabrika sahasındayız. Her parçanın Avrupa teknik standartlarını karşılamasını sağlamak için Gerçek Zamanlı Kalite Kontrol (QC) noktaları uyguluyoruz.",
+            "phase2_list": [
+                "Gerçek Zamanlı QC Kontrol Noktaları",
+                "Haftalık Görüntülü İlerleme Raporları",
+                "Endüstri Mühendisliği Denetimi",
+                "Teknik Uygunluk Denetimleri"
+            ],
+            "phase3_subtitle": "ÜÇÜNCÜ AŞAMA",
+            "phase3_title": "Lojistik Algoritması",
+            "phase3_desc": "Karmaşık kısmı biz hallediyoruz. İhracat belgeleri, gümrükleme ve nakliye optimizasyonu. Uzman ortaklarımız ürünlerinizin Bursa'dan İber Yarımadası'na güvenle ulaşmasını sağlar.",
+            "phase3_list": [
+                "Nakliye Optimizasyonu",
+                "Gümrükleme Yönetimi",
+                "Bursa - İspanya Güzergah Planlaması",
+                "Tam Sigorta Kapsamı"
+            ],
+            "phase4_subtitle": "DÖRDÜNCÜ AŞAMA",
+            "phase4_title": "DDP Teslimat (Kapıdan Kapıya)",
+            "phase4_desc": "Son aşama. DDP (Gümrük Vergisi Ödenmiş) şartlarıyla teslimat yapıyoruz. İspanya'daki tüm ithalat vergilerini ve KDV prosedürlerini biz yönetiyoruz. Ürünleri yerelden almışsınız gibi teslim alırsınız.",
+            "phase4_list": [
+                "Gümrük Vergisi Ödenmiş Teslimat (DDP)",
+                "İthalat Vergisi ve KDV Yönetimi",
+                "Şantiye/Otel/Depo Teslimatı",
+                "Son Kurulum Koordinasyonu"
+            ]
+        },
+        "qa_subtitle": "Kalite Güvencesi",
+        "qa_title": "Kontrol Mekanizmalarımız",
+        "qa": {
+            "item1_title": "Hammadde Muayenesi:",
+            "item1_desc": "Ahşap nem seviyeleri, Kumaş dayanıklılık testleri ve sünger yoğunluğu doğrulaması.",
+            "item2_title": "Üretim Hattı Denetimleri:",
+            "item2_desc": "Montajın her aşamasında iskelet ve birleşme yeri kontrolleri.",
+            "item3_title": "Sevkiyat Öncesi Son Muayene (PSI):",
+            "item3_desc": "Yüklemeden önce sıkı paketleme doğrulaması ve son estetik denetim.",
+            "item4_title": "100% Şeffaflık:",
+            "item4_desc": "Bir kusur bulunursa, fabrikadan çıkmadan önce düzeltilir. Haftalık raporlar dahildir."
+        },
+        "foundation_title": "Stratejik Temel",
+        "foundation_desc": "Tedarik döngüsünün her aşamasında mühendislik mükemmelliği.",
+        "foundation": {
+            "item1_title": "Endüstri Mühendisliği",
+            "item1_sub": "Hassasiyet Odaklı",
+            "item1_hover": "Üretimin her aşamasına optimizasyon ilkelerinin uygulanması.",
+            "item2_title": "UPV Mezunu",
+            "item2_sub": "Avrupa Standartları",
+            "item2_hover": "İspanyol tasarım beklentilerini Türk üretim gücüyle birleştirmek.",
+            "item3_title": "İnegöl Yerlisi",
+            "item3_sub": "Yerel Güç",
+            "item3_hover": "Mobilya üretim dünyasının kalbine doğrudan erişim.",
+            "item4_title": "Gerçek Zamanlı QC",
+            "item4_sub": "Sıfır Hata",
+            "item4_hover": "Sevkiyattan önce kusursuz uygulama için sürekli izleme.",
+            "item5_title": "Lojistik Algoritması",
+            "item5_sub": "Yasal İzinler",
+            "item5_hover": "Karmaşık belgelerin matematiksel verimlilikle yönetilmesi.",
+            "item6_title": "Kapıdan Kapıya",
+            "item6_sub": "DDP Teslimat",
+            "item6_hover": "İspanya'da yerel bir satın alma gibi vergileri ödenmiş teslimat.",
+            "item7_title": "CAD'den Fabrikaya",
+            "item7_sub": "Teknik Optimizasyon",
+            "item7_hover": "Teknik çizimlerinizin mükemmel ürünlere dönüştürülmesi.",
+            "item8_title": "100% Şeffaflık",
+            "item8_sub": "Tam Kontrol",
+            "item8_hover": "Sizi her zaman bilgilendirmek için haftalık görüntülü raporlar."
+        },
+        "cta_title": "Tedarik sürecinizi optimize etmeye hazır mısınız?",
+        "cta_btn": "EVET"
     }
 }

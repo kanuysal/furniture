@@ -8,7 +8,7 @@ import { footerOneAnimation } from "@/utils/footer-anim";
 const footer_links = [
   { link: "/", key: 'home' },
   { link: "/portfolio-grid-col-3", key: 'projects' },
-  { link: "/service", key: 'services' },
+  { link: "/service", key: 'process' },
   { link: "/about-us", key: 'about' },
   { link: "/contact", key: 'contact' },
 ];
@@ -53,7 +53,7 @@ export default function FooterOne() {
                     <div className="col-xl-6 col-lg-6 col-md-6">
                       <div className="tp-footer-widget">
                         <h4 className="tp-footer-title tp_fade_bottom">
-                          {tFooter('desc')}
+                          {tFooter('about_us')}
                         </h4>
                         <div className="tp-footer-widget-info">
                           <div className="tp-footer-widget-info-mail tp_fade_bottom">
@@ -63,7 +63,7 @@ export default function FooterOne() {
                           </div>
                           <div className="tp-footer-widget-info-location tp_fade_bottom">
                             <span>
-                              Alicante, Spain <br /> İnegöl, Turkiye
+                              {tFooter('location_spain')} <br /> {tFooter('location_turkey')}
                             </span>
                           </div>
                         </div>
@@ -72,7 +72,7 @@ export default function FooterOne() {
                     <div className="col-xl-6 col-lg-6 col-md-6">
                       <div className="tp-footer-widget">
                         <h4 className="tp-footer-title tp_fade_bottom">
-                          LinkedIn
+                          {tNav('follow_us')}
                         </h4>
                         <ul className="tp-footer-widget-social">
                           <li className="tp_fade_bottom">

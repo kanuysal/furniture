@@ -5,20 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { SwiperOptions } from "swiper/types";
 
-const testimonial_data = [
-  {
-    id: 1,
-    desc: `“Mina Design has been our bridge to Turkish craftsmanship. Their local İnegöl team ensures every piece meets our luxury standards in Spain.”`,
-    name: "Andrés García",
-    designation: "Interior Designer, Madrid",
-  },
-  {
-    id: 2,
-    desc: `“DDP logistics from Turkey to Alicante sounded complex, but Mina Design handled everything. The direct manufacturer pricing saved us over 30%.”`,
-    name: "Elena Rodriguez",
-    designation: "Hotel Procurement, Valencia",
-  },
-];
+import { useTranslations } from "next-intl";
 
 const slider_setting: SwiperOptions = {
   slidesPerView: 1,
@@ -51,6 +38,22 @@ const slider_setting: SwiperOptions = {
   },
 };
 const TestimonialOne = () => {
+  const t = useTranslations('Testimonials');
+  const testimonial_data = [
+    {
+      id: 1,
+      desc: t('item1_desc'),
+      name: t('item1_name'),
+      designation: t('item1_designation'),
+    },
+    {
+      id: 2,
+      desc: t('item2_desc'),
+      name: t('item2_name'),
+      designation: t('item2_designation'),
+    },
+  ];
+
   return (
     <div className="tp-testimonial-area pb-120">
       <div className="container">

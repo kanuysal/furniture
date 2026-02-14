@@ -10,60 +10,64 @@ import a_3 from "@/assets/images/masif/masif-6-1617x1080.jpg";
 import a_4 from "@/assets/images/masif/masif-8-1449x2172.jpg";
 import a_5 from "@/assets/images/masif/masif-9-1143x1712.jpg";
 import a_6 from "@/assets/images/masif/masif-10-1209x907.jpg";
+import { useTranslations } from "next-intl";
 import { Leaf } from "../svg";
-
-const award_data = [
-  {
-    id: 1,
-    img: a_1,
-    subtitle: "Spain",
-    title: "Regional Logistics Excellence",
-    date: "",
-  },
-  {
-    id: 2,
-    img: a_2,
-    subtitle: "Alicante",
-    title: "European Quality Standards",
-    date: "",
-  },
-  {
-    id: 3,
-    img: a_3,
-    subtitle: "İnegöl",
-    title: "Direct Hub Integrated",
-    date: "",
-  },
-  {
-    id: 4,
-    img: a_4,
-    subtitle: "DDP",
-    title: "Seamless Supply Chain",
-    date: "",
-  },
-  {
-    id: 5,
-    img: a_5,
-    subtitle: "B2B",
-    title: "Hotel Project Sourcing",
-    date: "",
-  },
-  {
-    id: 6,
-    img: a_6,
-    subtitle: "B2B",
-    title: "Retail Chain Partners",
-    date: "",
-  },
-];
 
 // prop type
 type IProps = {
   cls?: string;
   abStyle?: boolean;
 };
+
 const AwardOne = ({ cls = "pt-125 pb-125", abStyle = false }: IProps) => {
+  const t = useTranslations('Awards');
   const [activeThumb, setActiveThumb] = React.useState(1);
+
+  const award_data = [
+    {
+      id: 1,
+      img: a_1,
+      subtitle: t('item1_subtitle'),
+      title: t('item1_title'),
+      date: "",
+    },
+    {
+      id: 2,
+      img: a_2,
+      subtitle: t('item2_subtitle'),
+      title: t('item2_title'),
+      date: "",
+    },
+    {
+      id: 3,
+      img: a_3,
+      subtitle: t('item3_subtitle'),
+      title: t('item3_title'),
+      date: "",
+    },
+    {
+      id: 4,
+      img: a_4,
+      subtitle: t('item4_subtitle'),
+      title: t('item4_title'),
+      date: "",
+    },
+    {
+      id: 5,
+      img: a_5,
+      subtitle: t('item5_subtitle'),
+      title: t('item5_title'),
+      date: "",
+    },
+    {
+      id: 6,
+      img: a_6,
+      subtitle: t('item6_subtitle'),
+      title: t('item6_title'),
+      date: "",
+    },
+  ];
+
   return (
     <div className={`tp-award-area ${cls}`}>
       <div className="container container-1630">
@@ -72,7 +76,7 @@ const AwardOne = ({ cls = "pt-125 pb-125", abStyle = false }: IProps) => {
             {!abStyle && (
               <div className="tp-award-title-box">
                 <h4 className="tp-section-title tp-char-animation">
-                  Logistics <br /> <span>& Quality Excellence</span>
+                  {t('title_part1')} <br /> <span>{t('title_part2')}</span>
                 </h4>
               </div>
             )}
@@ -80,7 +84,7 @@ const AwardOne = ({ cls = "pt-125 pb-125", abStyle = false }: IProps) => {
               <div className="ab-award-title-sm">
                 <span>
                   <Leaf />
-                  Our Awards
+                  {t('title')}
                 </span>
               </div>
             )}

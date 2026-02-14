@@ -9,6 +9,7 @@ import { useTranslations } from "next-intl";
 
 export default function ContactTwo() {
   const t = useTranslations('Contact');
+  const tNav = useTranslations('Navigation');
   const { theme } = useTheme();
   const isDark = theme === 'dark';
 
@@ -19,7 +20,7 @@ export default function ContactTwo() {
           <Social />
         </div>
         <div className="ab-2-hero-social-text">
-          <span style={{ color: isDark ? '#fff' : 'inherit' }}>Follow us</span>
+          <span style={{ color: isDark ? '#fff' : 'inherit' }}>{tNav('follow_us')}</span>
         </div>
       </div>
       <div className="container">

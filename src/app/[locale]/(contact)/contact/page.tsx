@@ -10,7 +10,7 @@ export function generateStaticParams() {
 
 
 export const metadata: Metadata = {
-  title: "Liko - Contact page",
+  title: "Mina Design | Contact Us in Spain & Turkiye",
 };
 
 const ContactPage = async ({ params }: { params: Promise<{ locale: string }> }) => {

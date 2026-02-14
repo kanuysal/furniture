@@ -14,9 +14,13 @@ import b_7 from "@/assets/img/home-01/brand/brand-7.png";
 import b_8 from "@/assets/img/home-01/brand/brand-2.png";
 
 
+import { useTranslations } from "next-intl";
+
+
 const brand_images = [b_1, b_2, b_3, b_4, b_5, b_6, b_7, b_8, b_1, b_2, b_3, b_4, b_5, b_6, b_7, b_8];
 
 export default function BrandSlider() {
+  const t = useTranslations('Values');
   return (
     <div className="tp-brand-slider-active fix">
       <Marquee
@@ -26,12 +30,12 @@ export default function BrandSlider() {
         className="brand-wrapper"
       >
         <div className="tp-brand-item" style={{ display: 'flex', alignItems: 'center', gap: '80px', paddingRight: '80px' }}>
-          <h2 className="brand-item-text" style={{ fontFamily: 'var(--tp-ff-gallery)', fontWeight: 400 }}>FURNITURE</h2>
-          <h2 className="brand-item-text" style={{ fontWeight: 800 }}>MODERN</h2>
-          <h2 className="brand-item-text" style={{ fontFamily: 'var(--tp-ff-gallery)', fontWeight: 400 }}>QUALITY</h2>
-          <h2 className="brand-item-text" style={{ fontWeight: 800 }}>FAST</h2>
-          <h2 className="brand-item-text" style={{ fontFamily: 'var(--tp-ff-gallery)', fontWeight: 400 }}>ZERO STRESS</h2>
-          <h2 className="brand-item-text" style={{ fontWeight: 800 }}>SOURCING</h2>
+          <h2 className="brand-item-text" style={{ fontFamily: 'var(--tp-ff-gallery)', fontWeight: 400 }}>{t('furniture')}</h2>
+          <h2 className="brand-item-text" style={{ fontWeight: 800 }}>{t('modern')}</h2>
+          <h2 className="brand-item-text" style={{ fontFamily: 'var(--tp-ff-gallery)', fontWeight: 400 }}>{t('quality')}</h2>
+          <h2 className="brand-item-text" style={{ fontWeight: 800 }}>{t('fast')}</h2>
+          <h2 className="brand-item-text" style={{ fontFamily: 'var(--tp-ff-gallery)', fontWeight: 400 }}>{t('zero_stress')}</h2>
+          <h2 className="brand-item-text" style={{ fontWeight: 800 }}>{t('sourcing')}</h2>
         </div>
         <style jsx>{`
           .brand-item-text {
