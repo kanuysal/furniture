@@ -21,8 +21,10 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
+import { useTranslations } from "next-intl";
 
 const ServiceMain = () => {
+  const t = useTranslations('ServicesPage');
   useScrollSmooth();
   const { theme } = useTheme();
   const isDark = theme === "dark";
@@ -68,16 +70,15 @@ const ServiceMain = () => {
                     <div className="ab-about-content pl-80 tp_fade_right">
                       <span className="ab-inner-subtitle mb-20">
                         <Leaf />
-                        The Methodology
+                        {t('methodology_subtitle')}
                       </span>
-                      <h4 className="tp-service-5-title mb-30" style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '48px', color: isDark ? '#fff' : '#000' }}>
-                        The Engineer’s Eye on <br /> Turkish Craftsmanship
+                      <h4 className="tp-service-5-title mb-30" style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '48px', color: isDark ? '#fff' : '#000' }} dangerouslySetInnerHTML={{ __html: t('methodology_title') }}>
                       </h4>
                       <p className="mb-30" style={{ fontSize: '18px', lineHeight: '1.8', color: isDark ? '#ccc' : '#444' }}>
-                        "Sourcing furniture internationally often comes with risks: quality variation, delays, and communication gaps. At Mina Design, we eliminate these variables using Industrial Engineering principles.
+                        {t('methodology_para1')}
                       </p>
                       <p style={{ fontSize: '18px', lineHeight: '1.8', color: isDark ? '#ccc' : '#444' }}>
-                        Founded by a UPV (Universitat Politècnica de València) Alumni and Native of İnegöl—the furniture capital of Turkiye—our agency bridges two worlds. We combine European technical standards with Anatolian manufacturing power. Every project is treated as an engineering operation, optimized for cost, quality, and lead time."
+                        {t('methodology_para2')}
                       </p>
                     </div>
                   </div>
@@ -93,9 +94,9 @@ const ServiceMain = () => {
                   <div className="col-xl-12 text-center mb-60">
                     <span className="ab-inner-subtitle mb-20 justify-content-center">
                       <Leaf />
-                      The Protocol
+                      {t('protocol_subtitle')}
                     </span>
-                    <h2 style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '60px', color: isDark ? '#fff' : '#000' }}>Our 4-Step Technical Protocol</h2>
+                    <h2 style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '60px', color: isDark ? '#fff' : '#000' }}>{t('protocol_title')}</h2>
                   </div>
                 </div>
               </div>
@@ -111,10 +112,10 @@ const ServiceMain = () => {
                     <div className="tp-faq-title-box">
                       <span className="ab-inner-subtitle mb-20">
                         <Leaf />
-                        Quality Assurance
+                        {t('qa_subtitle')}
                       </span>
                       <h4 className="tp-section-title tp-char-animation" style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '45px', color: isDark ? '#fff' : '#000' }}>
-                        Our Control Mechanisms
+                        {t('qa_title')}
                       </h4>
                     </div>
                   </div>
@@ -125,29 +126,29 @@ const ServiceMain = () => {
                           <li className="mb-20 d-flex align-items-start tp_fade_bottom">
                             <span className="mr-20" style={{ color: isDark ? '#fff' : '#000', fontSize: '24px' }}>✓</span>
                             <div style={{ color: isDark ? '#ccc' : '#444' }}>
-                              <strong style={{ color: isDark ? '#fff' : '#000' }}>Raw Material Inspection:</strong>
-                              <p>Wood moisture levels, Fabric durability tests, and foam density verification.</p>
+                              <strong style={{ color: isDark ? '#fff' : '#000' }}>{t('qa.item1_title')}</strong>
+                              <p>{t('qa.item1_desc')}</p>
                             </div>
                           </li>
                           <li className="mb-20 d-flex align-items-start tp_fade_bottom">
                             <span className="mr-20" style={{ color: isDark ? '#fff' : '#000', fontSize: '24px' }}>✓</span>
                             <div style={{ color: isDark ? '#ccc' : '#444' }}>
-                              <strong style={{ color: isDark ? '#fff' : '#000' }}>In-Line Production Audits:</strong>
-                              <p>Skeleton & Joinery checks at every stage of assembly.</p>
+                              <strong style={{ color: isDark ? '#fff' : '#000' }}>{t('qa.item2_title')}</strong>
+                              <p>{t('qa.item2_desc')}</p>
                             </div>
                           </li>
                           <li className="mb-20 d-flex align-items-start tp_fade_bottom">
                             <span className="mr-20" style={{ color: isDark ? '#fff' : '#000', fontSize: '24px' }}>✓</span>
                             <div style={{ color: isDark ? '#ccc' : '#444' }}>
-                              <strong style={{ color: isDark ? '#fff' : '#000' }}>Final Pre-Shipment Inspection (PSI):</strong>
-                              <p>Strict packaging verification and final aesthetic audit before loading.</p>
+                              <strong style={{ color: isDark ? '#fff' : '#000' }}>{t('qa.item3_title')}</strong>
+                              <p>{t('qa.item3_desc')}</p>
                             </div>
                           </li>
                           <li className="mb-20 d-flex align-items-start tp_fade_bottom">
                             <span className="mr-20" style={{ color: isDark ? '#fff' : '#000', fontSize: '24px' }}>✓</span>
                             <div style={{ color: isDark ? '#ccc' : '#444' }}>
-                              <strong style={{ color: isDark ? '#fff' : '#000' }}>100% Transparency:</strong>
-                              <p>If a defect is found, it is fixed before it leaves the factory. Weekly reports included.</p>
+                              <strong style={{ color: isDark ? '#fff' : '#000' }}>{t('qa.item4_title')}</strong>
+                              <p>{t('qa.item4_desc')}</p>
                             </div>
                           </li>
                         </ul>
@@ -164,7 +165,7 @@ const ServiceMain = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12 text-center mb-60">
-                    <h4 style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '30px', color: isDark ? '#fff' : '#000' }}>Strategic Foundation</h4>
+                    <h4 style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '30px', color: isDark ? '#fff' : '#000' }}>{t('foundation_title')}</h4>
                   </div>
                 </div>
                 <div className="row gx-4">
@@ -178,14 +179,14 @@ const ServiceMain = () => {
             <div className="tp-cta-area pt-120 pb-120 black-bg text-center p-relative overflow-hidden">
               <div className="container">
                 <h2 className="mb-50" style={{ fontFamily: 'var(--tp-ff-gallery)', fontSize: '60px', color: '#fff' }}>
-                  Ready to optimize your procurement?
+                  {t('cta_title')}
                 </h2>
                 <Link
                   className="tp-btn-zikzak zikzak-inner p-relative mx-auto"
                   href="/contact"
                 >
                   <span className="zikzak-content">
-                    YES
+                    {t('cta_btn')}
                     <RightArrow clr="currentColor" />
                   </span>
                   <ShapeTwo />

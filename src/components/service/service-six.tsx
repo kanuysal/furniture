@@ -9,66 +9,72 @@ import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
 import { RightArrow, ShapeTwo } from "../svg";
 import Link from "next/link";
 
-const service_data = [
-  {
-    id: 1,
-    img: "/assets/images/other/images (12)-1500x999.jpg",
-    subtitle: "PHASE ONE",
-    title: "Technical Consultation & Analysis",
-    text: "We start by analyzing your project files (CAD/Specs). We don't just quote; we optimize. We match your specific requirements with the exact facility that specializes in that domain.",
-    lists: [
-      "CAD/Technical Optimization",
-      "Material Specification (Solid wood, Upholstery, Metal)",
-      "4000+ Manufacturer Network Mapping",
-      "Cost-Quality Benchmarking",
-    ],
-  },
-  {
-    id: 2,
-    img: "/assets/images/other/images (14)-2016x1344.jpg",
-    subtitle: "PHASE TWO",
-    title: "Production Engineering & QA",
-    text: "Once production starts, we are on the factory floor. We implement Real-Time Quality Control (QC) checkpoints to ensure every piece meets European technical standards.",
-    lists: [
-      "Real-Time QC Checkpoints",
-      "Weekly Video Progress Reports",
-      "Industrial Engineering Supervision",
-      "Technical Compliance Audits",
-    ],
-  },
-  {
-    id: 3,
-    img: "/assets/images/other/images (1)-2100x840.jpg",
-    subtitle: "PHASE THREE",
-    title: "The Logistics Algorithm",
-    text: "We handle the complex part. Export documentation, customs clearance, and freight optimization. Our specialized partners ensure your goods travel safely from Bursa to the Iberian Peninsula.",
-    lists: [
-      "Freight Optimization",
-      "Customs Clearance Management",
-      "Bursa to Spain Route Planning",
-      "Full Insurance Coverage",
-    ],
-  },
-  {
-    id: 4,
-    img: "/assets/images/other/images (7)-2016x1344.jpg",
-    subtitle: "PHASE FOUR",
-    title: "DDP Delivery (Door-to-Door)",
-    text: "The final leg. We deliver under DDP (Delivered Duty Paid) terms. We handle all import taxes and VAT procedures in Spain. You receive the goods as if you bought them locally.",
-    lists: [
-      "Delivered Duty Paid (DDP)",
-      "Import Tax & VAT Management",
-      "Site/Hotel/Warehouse Delivery",
-      "Final Installation Coordination",
-    ],
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function ServiceSix() {
+  const t = useTranslations('ServicesPage');
+
+  const service_items = [
+    {
+      id: 1,
+      img: "/assets/images/other/images (12)-1500x999.jpg",
+      subtitle: t('protocol.phase1_subtitle'),
+      title: t('protocol.phase1_title'),
+      text: t('protocol.phase1_desc'),
+      lists: [
+        t('protocol.phase1_list.0'),
+        t('protocol.phase1_list.1'),
+        t('protocol.phase1_list.2'),
+        t('protocol.phase1_list.3'),
+      ],
+    },
+    {
+      id: 2,
+      img: "/assets/images/other/images (14)-2016x1344.jpg",
+      subtitle: t('protocol.phase2_subtitle'),
+      title: t('protocol.phase2_title'),
+      text: t('protocol.phase2_desc'),
+      lists: [
+        t('protocol.phase2_list.0'),
+        t('protocol.phase2_list.1'),
+        t('protocol.phase2_list.2'),
+        t('protocol.phase2_list.3'),
+      ],
+    },
+    {
+      id: 3,
+      img: "/assets/images/other/images (1)-2100x840.jpg",
+      subtitle: t('protocol.phase3_subtitle'),
+      title: t('protocol.phase3_title'),
+      text: t('protocol.phase3_desc'),
+      lists: [
+        t('protocol.phase3_list.0'),
+        t('protocol.phase3_list.1'),
+        t('protocol.phase3_list.2'),
+        t('protocol.phase3_list.3'),
+      ],
+    },
+    {
+      id: 4,
+      img: "/assets/images/other/images (7)-2016x1344.jpg",
+      subtitle: t('protocol.phase4_subtitle'),
+      title: t('protocol.phase4_title'),
+      text: t('protocol.phase4_desc'),
+      lists: [
+        t('protocol.phase4_list.0'),
+        t('protocol.phase4_list.1'),
+        t('protocol.phase4_list.2'),
+        t('protocol.phase4_list.3'),
+      ],
+    },
+  ];
+
+  const contact_text = useTranslations('CTA')('btn');
+
   return (
     <div className="sv-service-area project-panel-area-2">
       <div className="container-fluid p-0">
-        {service_data.map((item) => (
+        {service_items.map((item) => (
           <div key={item.id} className="sv-service-item project-panel-2">
             <div className="row g-0">
               <div className="col-xl-6 col-lg-6">
@@ -109,7 +115,7 @@ export default function ServiceSix() {
                           href="/contact"
                         >
                           <span className="zikzak-content">
-                            Contact
+                            {contact_text}
                             <RightArrow clr="currentColor" />
                           </span>
                           <ShapeTwo />

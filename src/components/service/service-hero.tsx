@@ -5,18 +5,20 @@ import Image from "next/image";
 import ser_hero from "@/assets/img/inner-service/hero/hero-1.jpg";
 import ser_hero_shape from "@/assets/img/inner-service/hero/hero-shape-1.jpg";
 
+import { useTranslations } from "next-intl";
+
 export default function ServiceHero() {
+  const t = useTranslations('ServicesPage');
   return (
     <div className="sv-hero-area sv-hero-ptb">
       <div className="container container-1530">
         <div className="row">
           <div className="col-xl-10">
             <div className="sv-hero-title-box">
-              <h4 className="sv-hero-title tp-char-animation">
-                Engineered Sourcing. <br /> Flawless Execution.
+              <h4 className="sv-hero-title tp-char-animation" dangerouslySetInnerHTML={{ __html: t('hero_title') }}>
               </h4>
               <p className="tp_fade_bottom" style={{ fontSize: '20px', lineHeight: '1.6', maxWidth: '800px' }}>
-                We don’t just buy and sell. We engineer the supply chain from İnegöl’s production lines to your facility in Spain. Managed by Industrial Engineers, executed by master craftsmen.
+                {t('hero_desc')}
               </p>
             </div>
           </div>

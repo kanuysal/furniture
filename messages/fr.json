@@ -7,9 +7,14 @@
         "home": "Accueil",
         "about": "À propos",
         "process": "Processus",
-        "projects": "Projets",
+        "projects": "Collections",
         "contact": "Contact",
         "follow_us": "Suivez-nous"
+    },
+    "Settings": {
+        "title": "Paramètres d'affichage",
+        "dark": "Sombre",
+        "light": "Clair"
     },
     "Hero": {
         "subtitle": "Fournisseur <br /> de meubles <br /> fiable",
@@ -51,12 +56,13 @@
     "Projects": {
         "title": "Collections",
         "view_all": "Voir tous les projets",
+        "view_gallery": "Voir la galerie",
         "item1_title": "Luxe Avangard",
         "item2_title": "Massif Classique",
         "item3_title": "Canapé Moderne",
         "item4_title": "Design Hôtelier",
         "item5_title": "Bois Écologique",
-        "item6_title": "Salones Commerciaux"
+        "item6_title": "Salons Commerciaux"
     },
     "Awards": {
         "title": "Nos Prix",
@@ -93,17 +99,109 @@
         "sourcing": "SOURCING"
     },
     "Common": {
-        "view_gallery": "Voir<br />Galerie",
+        "view_gallery": "Voir la<br />Galerie",
         "follow_us": "Suivez-nous",
         "say_hello": "Dites bonjour à :",
         "information": "Information"
+    },
+    "AboutHero": {
+        "scroll": "Faitez glisser pour explorer",
+        "subtitle": "Mina Design. <br /> Qualité Héritage.",
+        "title": "Construisez <br /> Quelque chose d'intemporel.",
+        "desc": "Qu'il s'agisse d'un hôtel de charme à Valence ou d'une villa de luxe à Marbella ; vous avez un partenaire qui parle votre langue et comprend l'âme du bois."
+    },
+    "CTA": {
+        "title_part1": "Parlons-en",
+        "title_part2": "ensemble",
+        "desc": "Nous collaborerons pour trouver la bonne réponse et apporter du progrès à votre entreprise et au monde.",
+        "btn": "Contactez-nous"
+    },
+    "Portfolio": {
+        "curated_title": "Sélection soignée",
+        "curated_desc": "Les images ci-dessous ne sont qu'un aperçu de nos capacités. Notre réseau de sourcing à Inegol, la capitale turque de l'ameublement, offre des options illimitées au-delà de ces catégories. Nous livrons sans tracas, directement à votre porte, en gérant toutes les formalités douanières et logistiques. Contactez-nous pour accéder à l'intégralité de notre catalogue exclusif.",
+        "filter_all": "Tout afficher",
+        "filter_luxury": "Luxe",
+        "filter_modular": "Modulaire",
+        "filter_natural": "Naturel",
+        "filter_furniture": "Meubles",
+        "cursor_view": "Mieux<br>voir",
+        "item1_title": "Vie au salon",
+        "item2_title": "Zone de confort",
+        "item3_title": "Toucher doux",
+        "item4_title": "Confort moderne",
+        "item5_title": "Mode détente",
+        "item6_title": "Sièges flexibles",
+        "item7_title": "Série Avant-garde",
+        "item8_title": "Âge d'or",
+        "item9_title": "Touche royale",
+        "item10_title": "Lignes élégantes",
+        "item11_title": "Prestige",
+        "item12_title": "Vibe classique",
+        "item13_title": "Bois massif",
+        "item14_title": "Essence de chêne",
+        "item15_title": "Beauté brute",
+        "item16_title": "Art du bois",
+        "item17_title": "Nature pure",
+        "item18_title": "Travaux de menuiserie",
+        "item19_title": "Choix boutique",
+        "item20_title": "Pièces essentielles",
+        "item21_title": "Vie moderne",
+        "item22_title": "Chaises d'appoint",
+        "item23_title": "Objets de design",
+        "item24_title": "Détails d'intérieur"
+    },
+    "BrandSection": {
+        "title": "Ce que nous pouvons construire ensemble",
+        "slogan1": "Hôtels-boutiques",
+        "slogan2": "Villas de luxe",
+        "slogan3": "Fabrication sur mesure",
+        "slogan4": "Retail & Magasins",
+        "slogan5": "Restaurant & Café",
+        "slogan6": "Qualité Héritage",
+        "desc": "Nous croyons en la création de partenariats basés sur l'honnêteté technique et la transparence. Prêt à concevoir votre projet ?",
+        "btn": "Contactez notre équipe d'ingénierie"
+    },
+    "FAQ": {
+        "subtitle": "Rassurance",
+        "title": "Vos questions, <br /> des réponses expertes.",
+        "q1": "Gérez-vous les douanes ?",
+        "a1": "Oui. Nous livrons en DDP (Delivered Duty Paid). Aucune formalité douanière pour vous. Nous gérons tout, de la frontière turque à votre porte en Espagne.",
+        "q2": "Puis-je personnaliser les designs ?",
+        "a2": "Absolument. Nous sommes des spécialistes du 'sur-mesure'. Dimensions, tissus, finitions et même l'ingénierie structurelle peuvent être adaptés aux besoins de votre projet.",
+        "q3": "Quel est le minimum de commande ?",
+        "a3": "Nous sommes flexibles. Notre réseau nous permet de tout gérer, d'une seule pièce sur mesure pour une villa de luxe à l'ameublement complet d'un hôtel de 500 chambres."
     },
     "Contact": {
         "hero_title": "Concevons <br /> Votre Vision",
         "hero_subtitle": "Agence Mina Design | Solutions de Meubles",
         "form_title": "Le meuble est dans notre ADN.",
         "form_desc1": "Nous avons grandi à İnegöl, où le meuble est un héritage. Nous combinons cela avec la précision de l'ingénierie pour livrer une qualité héritage.",
-        "form_desc2": "Besoin d'un partenaire pour votre prochain projet en Espagne ? Nous parlons votre langue et comprenons l'âme du bois."
+        "form_desc2": "Besoin d'un partenaire pour votre prochain projet en Espagne ? Nous parlons votre langue et comprenons l'âme du bois.",
+        "name": "Nom / Prénom",
+        "name_placeholder": "Votre nom complet",
+        "company": "Nom de l'entreprise",
+        "company_placeholder": "B2B / Cabinet d'architecture / Entité",
+        "project_type": "Type de projet",
+        "project_type_placeholder": "Sélectionnez le type de projet",
+        "budget": "Budget estimé (Optionnel)",
+        "budget_placeholder": "Budget approximatif en EUR",
+        "message": "Message",
+        "message_placeholder": "Parlez-nous de votre vision...",
+        "send": "Envoyer le message",
+        "spain_office": {
+            "title": "SIÈGE ESPAGNOL (La Face)",
+            "subtitle": "Gestion de Projet & Juridique",
+            "address": "03802 Alcoy, Alicante, Espagne.",
+            "desc": "Nous sommes vos voisins locaux. Passez nous voir pour un café et une consultation.",
+            "hours": "Disponible 7 jours sur 7"
+        },
+        "turkey_office": {
+            "title": "HUB DE SOURCING (Le Moteur)",
+            "subtitle": "Production & Contrôle Qualité",
+            "address": "Mobilium AVM, İnegöl, Bursa, Turquie.",
+            "desc": "L'épicentre de notre réseau de fabrication de plus de 4000 partenaires.",
+            "hours": "Heures de production"
+        }
     },
     "Footer": {
         "desc": "Pont entre l'artisanat anatolien et le design européen.",
@@ -111,5 +209,95 @@
         "about_us": "À propos de nous",
         "location_spain": "Alicante, Espagne",
         "location_turkey": "İnegöl, Turquie"
+    },
+    "ServicesPage": {
+        "hero_title": "Sourcing Ingénierie. <br /> Exécution Impeccable.",
+        "hero_desc": "Nous ne nous contentons pas d'acheter et de vendre. Nous concevons la chaîne d'approvisionnement depuis les lignes de production d'İnegöl jusqu'à votre établissement en Espagne. Géré par des ingénieurs industriels, exécuté par des maîtres artisans.",
+        "methodology_subtitle": "La Méthodologie",
+        "methodology_title": "L'œil de l'ingénieur sur <br /> l'artisanat turc",
+        "methodology_para1": "\"Le sourcing international de meubles comporte souvent des risques : variations de qualité, retards et lacunes de communication. Chez Mina Design, nous éliminons ces variables en utilisant les principes de l'ingénierie industrielle.",
+        "methodology_para2": "Fondée par un ancien élève de l'UPV (Universitat Politècnica de València) et originaire d'İnegöl — la capitale du meuble de Turquie — notre agence fait le pont entre deux mondos. Nous combinons les normes techniques européennes avec la puissance de fabrication anatolienne. Chaque projet est traité comme une opération d'ingénierie, optimisée en termes de coût, de qualité et de délai.\"",
+        "protocol_subtitle": "Le Protocole",
+        "protocol_title": "Notre Protocole Technique en 4 Étapes",
+        "protocol": {
+            "phase1_subtitle": "PHASE UN",
+            "phase1_title": "Consultation Technique & Analyse",
+            "phase1_desc": "Nous commençons par analyser les fichiers de votre projet (CAO/Spécifications). Nous ne nous contentons pas de deviser ; nous optimisons. Nous faisons correspondre vos exigences spécifiques avec l'usine exacte spécialisée dans ce domaine.",
+            "phase1_list": [
+                "Optimisation Technique/CAO",
+                "Spécification des Matériaux (Bois massif, Tapisserie, Métal)",
+                "Cartographie du réseau de plus de 4000 fabricants",
+                "Analyse comparative Coût-Qualité"
+            ],
+            "phase2_subtitle": "PHASE DEUX",
+            "phase2_title": "Ingénierie de Production & AQ",
+            "phase2_desc": "Dès que la production commence, nous sommes sur le terrain. Nous mettons en œuvre des points de contrôle qualité (QC) en temps réel pour garantir que chaque pièce répond aux normes techniques européennes.",
+            "phase2_list": [
+                "Points de contrôle QC en temps réel",
+                "Rapports d'avancement vidéo hebdomadaires",
+                "Supervision d'Ingénierie Industrielle",
+                "Audits de conformité technique"
+            ],
+            "phase3_subtitle": "PHASE TROIS",
+            "phase3_title": "L'Algorithme Logistique",
+            "phase3_desc": "Nous gérons la partie complexe. Documentation d'exportation, dédouanement et optimisation du fret. Nos partenaires spécialisés garantissent que vos marchandises voyagent en toute sécurité de Bursa vers la péninsule Ibérique.",
+            "phase3_list": [
+                "Optimisation du fret",
+                "Gestion du dédouanement",
+                "Planification de l'itinéraire de Bursa vers l'Espagne",
+                "Couverture d'assurance complète"
+            ],
+            "phase4_subtitle": "PHASE QUATRE",
+            "phase4_title": "Livraison DDP (Porte à Porte)",
+            "phase4_desc": "La dernière étape. Nous livrons selon les conditions DDP (Delivered Duty Paid). Nous gérons toutes les taxes d'importation et les procédures de TVA en Espagne. Vous recevez les marchandises comme si vous les aviez achetées localement.",
+            "phase4_list": [
+                "Rendu Droits Acquittés (DDP)",
+                "Gestion des taxes d'importation et de la TVA",
+                "Livraison sur chantier/Hôtel/Entrepôt",
+                "Coordination de l'installation finale"
+            ]
+        },
+        "qa_subtitle": "Assurance Qualité",
+        "qa_title": "Nos Mécanismes de Contrôle",
+        "qa": {
+            "item1_title": "Inspection des matières premières :",
+            "item1_desc": "Niveaux d'humidité du bois, tests de durabilité des tissus et vérification de la densité de la mousse.",
+            "item2_title": "Audits de production en ligne :",
+            "item2_desc": "Contrôles de la structure et des assemblages à chaque étape du montage.",
+            "item3_title": "Inspection finale avant expédition (PSI) :",
+            "item3_desc": "Vérification stricte de l'emballage et audit esthétique final avant le chargement.",
+            "item4_title": "100% Transparence :",
+            "item4_desc": "Si un défaut est constaté, il est corrigé avant de quitter l'usine. Rapports hebdomadaires inclus."
+        },
+        "foundation_title": "Fondation Stratégique",
+        "foundation_desc": "L'excellence en ingénierie à chaque étape du cycle d'approvisionnement.",
+        "foundation": {
+            "item1_title": "Génie industriel",
+            "item1_sub": "Précision architecturale",
+            "item1_hover": "Application des principes d'optimisation à chaque étape de la production.",
+            "item2_title": "Alumni UPV",
+            "item2_sub": "Normes européennes",
+            "item2_hover": "Fusion des attentes de design espagnoles avec la puissance turque.",
+            "item3_title": "Originaire d'Inegol",
+            "item3_sub": "Force locale",
+            "item3_hover": "Accès direct au cœur du monde de la fabrication de meubles.",
+            "item4_title": "QC en temps réel",
+            "item4_sub": "Défaut zéro",
+            "item4_hover": "Suivi constant pour garantir une exécution parfaite avant expédition.",
+            "item5_title": "Algorithme logistique",
+            "item5_sub": "Dédouanement légal",
+            "item5_hover": "Documentation complexe gérée avec une efficacité mathématique.",
+            "item6_title": "Porte à porte",
+            "item6_sub": "Livraison DDP",
+            "item6_hover": "Livré taxes payées, tout comme un achat local en Espagne.",
+            "item7_title": "CAO vers l'usine",
+            "item7_sub": "Optimisation technique",
+            "item7_hover": "Traduire vos dessins techniques en produits parfaits.",
+            "item8_title": "100% transparence",
+            "item8_sub": "Contrôle total",
+            "item8_hover": "Rapports vidéo hebdomadaires pour vous tenir toujours au courant."
+        },
+        "cta_title": "Prêt à optimiser vos approvisionnements ?",
+        "cta_btn": "OUI"
     }
 }
