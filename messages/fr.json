@@ -1,0 +1,77 @@
+{
+    "Metadata": {
+        "title": "Mina Design | Agence de sourcing de meubles haut de gamme",
+        "description": "Sourcing de meubles turcs raffinés pour les marchés européens. Faire le pont entre l'artisanat anatolien et l'excellence du design moderne."
+    },
+    "Navigation": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "subtitle": "Fournisseur <br /> de meubles <br /> fiable",
+        "title_part1": "Pont",
+        "title_part2": "Entre l'artisanat",
+        "title_part3": "anatolien",
+        "desc": "Sourcing direct de meubles B2B d'İnegöl, Turquie vers l'Espagne. Allier le design européen à l'excellence de l'artisanat turc."
+    },
+    "About": {
+        "title": "Le meuble est dans notre ADN.",
+        "para1": "\"Pour nous, le meuble n'est pas qu'une marchandise ; c'est un héritage. Nés et élevés à İnegöl — le cœur de l'industrie turque du meuble — nous avons grandi dans les ateliers où la sciure se transforme en art.\"",
+        "para2": "Nous combinons cette compréhension innée de l'artisanat avec la précision de l'ingénierie industrielle (Alumni UPV). Nous savons quel bois dure toute une vie, quel tissu résiste au trafic hôtelier et quel joint ne grincera jamais. Nous ne nous contentons pas de sourcer des meubles ; nous garantissons une 'Qualité Héritage' — des pièces conçues pour durer des générations."
+    },
+    "Capacity": {
+        "title": "Capacité opérationnelle",
+        "partners_label": "Partenaires de fabrication",
+        "partners_desc": "Accès direct aux meilleurs ateliers d'artisans et usines de haute technologie d'İnegöl.",
+        "heritage_label": "Années d'héritage",
+        "heritage_desc": "Né dans la capitale du meuble, perfectionné par l'ingénierie industrielle.",
+        "qc_label": "Contrôle qualité (QC)",
+        "qc_desc": "Chaque couture et chaque joint est inspecté avant l'expédition. Zéro défaut.",
+        "customs_label": "Zéro tracas de douane",
+        "customs_desc": "Nous gérons tous les droits d'importation. Livraison directe à votre porte en Espagne (DDP)."
+    },
+    "Services": {
+        "title_subtitle": "Notre Expertise",
+        "title_part1": "Sourcing",
+        "title_part2": "Professionnel",
+        "see_all": "Voir Tous les Services",
+        "item1_title": "ACCÈS DIRECT À L'USINE",
+        "item1_desc": "Éliminer les intermédiaires à İnegöl pour vous offrir les prix fabricants directement.",
+        "item2_title": "SUPPORT SIÈGE ESPAGNE",
+        "item2_desc": "Notre équipe basée à Alicante fournit un soutien local et une supervision aux normes européennes.",
+        "item3_title": "LOGISTIQUE DDP",
+        "item3_desc": "Livraison porte-à-porte sans tracas de la Turquie à votre emplacement en Espagne.",
+        "item4_title": "CONCEPTION & PRODUCTION",
+        "item4_desc": "Faire le pont entre l'esthétique du design européen et l'artisanat turc expert."
+    },
+    "Projects": {
+        "title": "Collections",
+        "view_all": "Voir tous les projets",
+        "item1_title": "Luxe Avangard",
+        "item2_title": "Massif Classique",
+        "item3_title": "Canapé Moderne",
+        "item4_title": "Design Hôtelier",
+        "item5_title": "Bois Écologique",
+        "item6_title": "Salones Commerciaux"
+    },
+    "Common": {
+        "view_gallery": "Voir<br />Galerie",
+        "follow_us": "Suivez-nous",
+        "say_hello": "Dites bonjour à :",
+        "information": "Information"
+    },
+    "Contact": {
+        "hero_title": "Concevons <br /> Votre Vision",
+        "hero_subtitle": "Agence Mina Design | Solutions de Meubles",
+        "form_title": "Le meuble est dans notre ADN.",
+        "form_desc1": "Nous avons grandi à İnegöl, où le meuble est un héritage. Nous combinons cela avec la précision de l'ingénierie pour livrer une qualité héritage.",
+        "form_desc2": "Besoin d'un partenaire pour votre prochain projet en Espagne ? Nous parlons votre langue et comprenons l'âme du bois."
+    },
+    "Footer": {
+        "desc": "Pont entre l'artisanat anatolien et le design européen.",
+        "copyright": "© {year} Mina Design Sourcing de meubles. Tous droits réservés."
+    }
+}

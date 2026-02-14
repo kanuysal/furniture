@@ -1,0 +1,148 @@
+{
+    "Metadata": {
+        "title": "Mina Design | Premium Mobilya Tedarik Ajansı",
+        "description": "Avrupa pazarı için seçkin Türk mobilya tedariği. Anadolu zanaatkarlığını modern tasarım mükembelliğiyle buluşturuyoruz."
+    },
+    "Navigation": {
+        "home": "Anasayfa",
+        "about": "Hakkımızda",
+        "services": "Hizmetler",
+        "projects": "Projeler",
+        "contact": "İletişim"
+    },
+    "Settings": {
+        "title": "Görünüm Ayarları",
+        "dark": "Koyu",
+        "light": "Açık"
+    },
+    "Hero": {
+        "subtitle": "Güvenilir <br /> Mobilya <br /> Tedarikçisi",
+        "title_part1": "Anadolu Zanaatı",
+        "title_part2": "ve Avrupa Tasarımı",
+        "title_part3": "Arasındaki Köprü",
+        "desc": "İnegöl'den İspanya'ya doğrudan B2B mobilya tedariği. Avrupa tasarımını Türk zanaatkarlık mükemmelliğiyle birleştiriyoruz."
+    },
+    "About": {
+        "title": "Mobilya Bizim DNA'mızda Var.",
+        "para1": "\"Bizim için mobilya sadece bir meta değil; bir mirastır. Türkiye'nin mobilya endüstrisinin kalbi olan İnegöl'de doğup büyüdük—talaş tozunun sanata dönüştüğü atölyelerde yetiştik.\"",
+        "para2": "Zanaatkarlığa dair bu içsel anlayışı, Endüstri Mühendisliği hassasiyetiyle (UPV Mezunu) birleştiriyoruz. Hangi ahşabın bir ömür boyu dayanacağını, hangi kumaşın otel trafiğine direneceğini ve hangi eklemin asla gıcırdamayacağını biliyoruz. Sadece mobilya tedarik etmiyor; nesiller boyu dayanacak 'Yadigâr Kaliteyi' garanti ediyoruz."
+    },
+    "Capacity": {
+        "title": "Operasyonel Kapasite",
+        "partners_label": "Üretim Ortağı",
+        "partners_desc": "İnegöl'ün en iyi zanaatkar atölyelerine ve yüksek teknolojili fabrikalarına doğrudan erişim.",
+        "heritage_label": "Yıllık Deneyim",
+        "heritage_desc": "Mobilyanın başkentinde doğdu, Endüstri Mühendisliği ile mükemmelleştirildi.",
+        "qc_label": "Kalite Kontrol (QC)",
+        "qc_desc": "Her dikiş ve eklem sevkiyattan önce kontrol edilir. Sıfır hata.",
+        "customs_label": "Sıfır Gümrük Sorunu",
+        "customs_desc": "Tüm ithalat vergilerini biz hallediyoruz. İspanya'daki kapınıza doğrudan teslimat (DDP)."
+    },
+    "Contact": {
+        "hero_title": "Vizyonunuzu <br /> Tasarlayalım",
+        "hero_subtitle": "Mina Design Ajansı | Mobilya Çözümleri",
+        "form_title": "Mobilya Bizim DNA'mızda Var.",
+        "form_desc1": "Mobilyanın bir miras olduğu İnegöl'de büyüdük. Bunu mühendislik hassasiyetiyle birleştirerek yadigâr kalitede ürünler sunuyoruz.",
+        "form_desc2": "İspanya'daki projeniz için bir ortağa mı ihtiyacınız var? Dilinizi konuşuyor ve ahşabın ruhunu anlıyoruz."
+    },
+    "Footer": {
+        "desc": "Anadolu Zanaatı ve Avrupa Tasarımı Arasındaki Köprü.",
+        "copyright": "© {year} Mina Design Mobilya Tedariği. Tüm Hakları Saklıdır."
+    },
+    "Services": {
+        "title_subtitle": "Uzmanlığımız",
+        "title_part1": "Profesyonel",
+        "title_part2": "Tedarik",
+        "see_all": "Tüm Hizmetleri Gör",
+        "item1_title": "DOĞRUDAN FABRİKA ERİŞİMİ",
+        "item1_desc": "İnegöl'deki aracıları ortadan kaldırarak üretici fiyatlarını doğrudan size sunuyoruz.",
+        "item2_title": "İSPANYA MERKEZ DESTEĞİ",
+        "item2_desc": "Alicante merkezli ekibimiz yerel destek ve Avrupa standartlarında denetim sağlar.",
+        "item3_title": "DDP LOJİSTİK",
+        "item3_desc": "Türkiye'den İspanya'daki adresinize sorunsuz kapıdan kapıya teslimat.",
+        "item4_title": "TASARIM VE ÜRETİM",
+        "item4_desc": "Avrupa tasarım estetiğini uzman Türk zanaatkarlığıyla birleştiriyoruz."
+    },
+    "Projects": {
+        "title": "Koleksiyonlar",
+        "view_all": "Tüm projeleri gör",
+        "view_gallery": "Galeriyi Gör",
+        "item1_title": "Lüks Avangard",
+        "item2_title": "Klasik Masif",
+        "item3_title": "Modern Koltuk",
+        "item4_title": "Konaklama Tasarımı",
+        "item5_title": "Çevre Dostu Ahşap",
+        "item6_title": "Ticari Dinlenme Alanları"
+    },
+    "Common": {
+        "view_gallery": "Galeriyi<br />Gör",
+        "follow_us": "Bizi Takip Edin",
+        "say_hello": "Merhaba deyin:",
+        "information": "Bilgi"
+    },
+    "AboutHero": {
+        "scroll": "Keşfetmek için kaydırın",
+        "subtitle": "Mina Design. <br /> Yadigâr Kalite.",
+        "title": "Zamansız Bir Şey <br /> İnşa Edelim.",
+        "desc": "İster Valensiya'da bir butik otel, ister Marbella'da lüks bir villa olsun; dilinizi konuşan ve ahşabın ruhunu anlayan bir ortağınız var."
+    },
+    "CTA": {
+        "title_part1": "Hadi bunun hakkında",
+        "title_part2": "konuşalım",
+        "desc": "Doğru cevabı bulmak, işinize ve dünyaya ilerleme getirmek için işbirliği yapacağız.",
+        "btn": "İletişime <br /> Geçin"
+    },
+    "Portfolio": {
+        "filter_all": "Tümünü Göster",
+        "filter_luxury": "Lüks",
+        "filter_modular": "Modüler",
+        "filter_natural": "Doğal",
+        "filter_furniture": "Mobilya",
+        "cursor_view": "Daha İyi<br>Gör",
+        "item1_title": "Lounge Yaşamı",
+        "item2_title": "Konfor Alanı",
+        "item3_title": "Yumuşak Dokunuş",
+        "item4_title": "Modern Konfor",
+        "item5_title": "Rahatlama Modu",
+        "item6_title": "Esnek Oturma",
+        "item7_title": "Avangard Serisi",
+        "item8_title": "Altın Çağ",
+        "item9_title": "Kraliyet Dokunuşu",
+        "item10_title": "Zarif Hatlar",
+        "item11_title": "Prestij",
+        "item12_title": "Klasik Esinti",
+        "item13_title": "Masif Ahşap",
+        "item14_title": "Meşe Özü",
+        "item15_title": "Ham Güzellik",
+        "item16_title": "Kereste Sanatı",
+        "item17_title": "Saf Doğa",
+        "item18_title": "Ahşap İşleri",
+        "item19_title": "Butik Seçimler",
+        "item20_title": "Temel Parçalar",
+        "item21_title": "Modern Yaşam",
+        "item22_title": "Vurgu Sandalyeleri",
+        "item23_title": "Tasarım Objeleri",
+        "item24_title": "İç Mekan Detayları"
+    },
+    "BrandSection": {
+        "title": "Birlikte Neler İnşa Edebiliriz",
+        "slogan1": "Butik Oteller",
+        "slogan2": "Lüks Villalar",
+        "slogan3": "Özel Üretim",
+        "slogan4": "Mağaza & Zincirler",
+        "slogan5": "Restoran & Kafe",
+        "slogan6": "Yadigâr Kalite",
+        "desc": "Teknik dürüstlük ve şeffaflığa dayalı ortaklıklar kurmaya inanıyoruz. Projenizi tasarlamaya hazır mısınız?",
+        "btn": "Mühendislik Ekibimizle İletişime Geçin"
+    },
+    "FAQ": {
+        "subtitle": "Güvence",
+        "title": "Sorularınız, <br /> Tasarlanmış Cevaplar.",
+        "q1": "Gümrük işlemlerini siz mi hallediyorsunuz?",
+        "a1": "Evet. DDP (Gümrük Vergileri Ödenmiş Olarak) teslim ediyoruz. Sizin için gümrük kağıt işleri yok. Türkiye sınırından İspanya'daki kapınıza kadar her şeyi biz hallediyoruz.",
+        "q2": "Tasarımları özelleştirebilir miyim?",
+        "a2": "Kesinlikle. Biz 'Sipariş Üzerine Üretim' uzmanlarıyız. Boyutlar, kumaşlar, cila ve hatta yapısal mühendislik projenizin ihtiyaçlarına göre ayarlanabilir.",
+        "q3": "Minimum sipariş miktarı nedir?",
+        "a3": "Esneğiz. Ağımız, lüks bir villa için tek parça özel bir üründen, 500 odalı bir otelin tam tefrişatına kadar her şeyi yönetmemize olanak tanır."
+    }
+}

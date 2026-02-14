@@ -1,0 +1,183 @@
+{
+    "Metadata": {
+        "title": "Mina Design | Premium Furniture Sourcing Agency",
+        "description": "Exquisite Turkish furniture sourcing for European markets. Bridging Anatolian craftsmanship with modern design excellence."
+    },
+    "Navigation": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "Settings": {
+        "title": "Display Settings",
+        "dark": "Dark",
+        "light": "Light"
+    },
+    "Hero": {
+        "subtitle": "Reliable <br /> Furniture <br /> Supplier",
+        "title_part1": "Bridge",
+        "title_part2": "Between Anatolian",
+        "title_part3": "Craftsmanship",
+        "desc": "Direct B2B furniture sourcing from İnegöl, Turkey to Spain. Bridging European design with Turkish craftsmanship excellence."
+    },
+    "About": {
+        "title": "Furniture is in Our DNA.",
+        "para1": "\"For us, furniture is not just a commodity; it is a heritage. Born and raised in İnegöl—the heart of Turkey’s furniture industry—we grew up in the workshops where sawdust turns into art.\"",
+        "para2": "We combine this innate understanding of craftsmanship with Industrial Engineering precision (UPV Alumni). We know which wood lasts a lifetime, which fabric withstands hotel traffic, and which joint will never creak. We don’t just source furniture; we guarantee 'Heirloom Quality'—pieces built to last for generations."
+    },
+    "Capacity": {
+        "title": "Operational Capacity",
+        "partners_label": "Manufacturing Partners",
+        "partners_desc": "Direct access to İnegöl’s finest artisan workshops and high-tech factories.",
+        "heritage_label": "Years of Heritage",
+        "heritage_desc": "Born in the furniture capital, perfected with Industrial Engineering.",
+        "qc_label": "Quality Control (QC)",
+        "qc_desc": "Every stitch and joint is inspected before shipping. Zero defects.",
+        "customs_label": "Zero Customs Hassle",
+        "customs_desc": "We handle all import duties. Delivered directly to your door in Spain (DDP)."
+    },
+    "Contact": {
+        "hero_title": "Let’s Engineer <br /> Your Vision",
+        "hero_subtitle": "Mina Design Agency | Furniture Solutions",
+        "form_title": "Furniture is in our DNA.",
+        "form_desc1": "We grew up in İnegöl, where furniture is a heritage. We combine this with engineering precision to deliver heirloom quality.",
+        "form_desc2": "Need a partner for your next project in Spain? We speak your language and understand the soul of wood."
+    },
+    "Footer": {
+        "desc": "Bridge Between Anatolian Craftsmanship & European Design.",
+        "copyright": "© {year} Mina Design Furniture Sourcing. All Rights Reserved."
+    },
+    "Services": {
+        "title_subtitle": "Our Expertise",
+        "title_part1": "Professional",
+        "title_part2": "Sourcing",
+        "see_all": "See All Services",
+        "item1_title": "DIRECT FACTORY ACCESS",
+        "item1_desc": "Eliminating middlemen in İnegöl to provide manufacturers' prices directly to you.",
+        "item2_title": "SPANISH HQ SUPPORT",
+        "item2_desc": "Our Alicante-based team provides local support and European standards oversight.",
+        "item3_title": "DDP LOGISTICS",
+        "item3_desc": "Hassle-free door-to-door delivery from Turkey to your location in Spain.",
+        "item4_title": "DESIGN & PRODUCTION",
+        "item4_desc": "Bridging European design aesthetics with expert Turkish craftsmanship."
+    },
+    "Projects": {
+        "title": "Collections",
+        "view_all": "View all projects",
+        "view_gallery": "View Gallery",
+        "item1_title": "Luxury Avangard",
+        "item2_title": "Classic Masif",
+        "item3_title": "Modern Sofa",
+        "item4_title": "Hospitality Design",
+        "item5_title": "Eco Friendly Wood",
+        "item6_title": "Commercial Lounging"
+    },
+    "Common": {
+        "view_gallery": "View<br />Gallery",
+        "follow_us": "Follow Us",
+        "say_hello": "Say hello at:",
+        "information": "Information"
+    },
+    "Awards": {
+        "title_part1": "Logistics",
+        "title_part2": "Quality Excellence",
+        "item1_subtitle": "Spain",
+        "item1_title": "Regional Logistics Excellence",
+        "item2_subtitle": "Alicante",
+        "item2_title": "European Quality Standards",
+        "item3_subtitle": "İnegöl",
+        "item3_title": "Direct Hub Integrated",
+        "item4_subtitle": "DDP",
+        "item4_title": "Seamless Supply Chain",
+        "item5_subtitle": "B2B",
+        "item5_title": "Hotel Project Sourcing",
+        "item6_subtitle": "B2B",
+        "item6_title": "Retail Chain Partners"
+    },
+    "Brand": {
+        "core_values": "Our Core Values",
+        "marquee": {
+            "furniture": "FURNITURE",
+            "modern": "MODERN",
+            "quality": "QUALITY",
+            "fast": "FAST",
+            "zero_stress": "ZERO STRESS",
+            "sourcing": "SOURCING"
+        }
+    },
+    "Testimonials": {
+        "item1_desc": "“Mina Design has been our bridge to Turkish craftsmanship. Their local İnegöl team ensures every piece meets our luxury standards in Spain.”",
+        "item1_name": "Andrés García",
+        "item1_designation": "Interior Designer, Madrid",
+        "item2_desc": "“DDP logistics from Turkey to Alicante sounded complex, but Mina Design handled everything. The direct manufacturer pricing saved us over 30%.”",
+        "item2_name": "Elena Rodriguez",
+        "item2_designation": "Hotel Procurement, Valencia"
+    },
+    "AboutHero": {
+        "scroll": "Scroll to explore",
+        "subtitle": "Mina Design. <br /> Heirloom Quality.",
+        "title": "Let’s Build <br /> Something Timeless.",
+        "desc": "Whether it’s a boutique hotel in Valencia or a luxury villa in Marbella; you have a partner who speaks your language and understands the soul of wood."
+    },
+    "CTA": {
+        "title_part1": "Let’s talk",
+        "title_part2": "about it",
+        "desc": "We will collaborate to find the right answer and bring progress to your business and to the world.",
+        "btn": "Get In Touch"
+    },
+    "Portfolio": {
+        "filter_all": "Show All",
+        "filter_luxury": "Luxury",
+        "filter_modular": "Modular",
+        "filter_natural": "Natural",
+        "filter_furniture": "Furniture",
+        "cursor_view": "View<br>Better",
+        "item1_title": "Lounge Life",
+        "item2_title": "Comfort Zone",
+        "item3_title": "Soft Touch",
+        "item4_title": "Modern Comfort",
+        "item5_title": "Relax Mode",
+        "item6_title": "Flex Seating",
+        "item7_title": "Avangard Series",
+        "item8_title": "Golden Era",
+        "item9_title": "Royal Touch",
+        "item10_title": "Elegant Lines",
+        "item11_title": "Prestige",
+        "item12_title": "Classic Vibe",
+        "item13_title": "Solid Wood",
+        "item14_title": "Oak Essence",
+        "item15_title": "Raw Beauty",
+        "item16_title": "Timber Craft",
+        "item17_title": "Pure Nature",
+        "item18_title": "Wood Works",
+        "item19_title": "Boutique Picks",
+        "item20_title": "Essential Pieces",
+        "item21_title": "Modern Living",
+        "item22_title": "Accent Chairs",
+        "item23_title": "Design Objects",
+        "item24_title": "Interior Details"
+    },
+    "BrandSection": {
+        "title": "What We Can Build Together",
+        "slogan1": "Boutique Hotels",
+        "slogan2": "Luxury Villas",
+        "slogan3": "Bespoke Manufacturing",
+        "slogan4": "Retail & Stores",
+        "slogan5": "Restaurant & Cafe",
+        "slogan6": "Heirloom Quality",
+        "desc": "We believe in creating partnerships based on technical honesty and transparency. Ready to engineer your project?",
+        "btn": "Contact Our Engineering Team"
+    },
+    "FAQ": {
+        "subtitle": "Reassurance",
+        "title": "Your Questions, <br /> Engineered Answers.",
+        "q1": "Do you handle customs?",
+        "a1": "Yes. We deliver DDP (Delivered Duty Paid). No customs paperwork for you. We handle everything from the Turkish border to your door in Spain.",
+        "q2": "Can I customize the designs?",
+        "a2": "Absolutely. We are 'Made-to-Order' specialists. Dimensions, fabrics, finishes, and even structural engineering can be adjusted to your project’s needs.",
+        "q3": "What is the minimum order?",
+        "a3": "We are flexible. Our network allows us to handle everything from a single bespoke statement piece for a luxury villa to full furnishing for a 500-room hotel."
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "Metadata": {
+        "title": "Mina Design | Premium-Möbelbeschaffungsagentur",
+        "description": "Exquisite türkische Möbelbeschaffung für europäische Märkte. Die Brücke zwischen anatolischer Handwerkskunst und moderner Design-Exzellenz."
+    },
+    "Navigation": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "services": "Leistungen",
+        "projects": "Projekte",
+        "contact": "Kontakt"
+    },
+    "Hero": {
+        "subtitle": "Zuverlässiger <br /> Möbellieferant",
+        "title_part1": "Brücke",
+        "title_part2": "Zwischen anatolischer",
+        "title_part3": "Handwerkskunst",
+        "desc": "Direkte B2B-Möbelbeschaffung von İnegöl, Türkei nach Spanien. Verbindung von europäischem Design mit türkischer Handwerkskunst."
+    },
+    "About": {
+        "title": "Möbel liegen in unserer DNA.",
+        "para1": "\"Für uns sind Möbel nicht nur eine Ware; sie sind ein Erbe. Aufgewachsen in İnegöl – dem Herzen der türkischen Möbelindustrie – sind wir in den Werkstätten groß geworden, in denen Sägemehl zu Kunst wird.\"",
+        "para2": "Wir verbinden dieses angeborene Verständnis für Handwerkskunst mit der Präzision des Wirtschaftsingenieurwesens (UPV Alumni). Wir wissen, welches Holz ein Leben lang hält, welcher Stoff dem Hotelbetrieb standhält und welche Verbindung niemals knarrt. Wir beschaffen nicht nur Möbel; wir garantieren 'Heirloom Quality' – Stücke, die für Generationen gebaut sind."
+    },
+    "Capacity": {
+        "title": "Operative Kapazität",
+        "partners_label": "Fertigungspartner",
+        "partners_desc": "Direkter Zugang zu İnegöls feinsten Handwerksbetrieben und Hightech-Fabriken.",
+        "heritage_label": "Jahre an Tradition",
+        "heritage_desc": "Geboren in der Möbelhauptstadt, perfektioniert durch Engineering.",
+        "qc_label": "Qualitätskontrolle (QC)",
+        "qc_desc": "Jede Naht und jede Verbindung wird vor dem Versand geprüft. Null Fehler.",
+        "customs_label": "Kein Zollstress",
+        "customs_desc": "Wir kümmern uns um alle Einfuhrzölle. Lieferung direkt zu Ihrer Tür in Spanien (DDP)."
+    },
+    "Services": {
+        "title_subtitle": "Unsere Expertise",
+        "title_part1": "Professionelle",
+        "title_part2": "Beschaffung",
+        "see_all": "Alle Dienstleistungen sehen",
+        "item1_title": "DIREKTER FABRIK-ZUGANG",
+        "item1_desc": "Keine Zwischenhändler in İnegöl, um Ihnen direkt Herstellerpreise zu bieten.",
+        "item2_title": "SPANISH HQ SUPPORT",
+        "item2_desc": "Unser Team in Alicante bietet lokale Unterstützung und Aufsicht nach europäischen Standards.",
+        "item3_title": "DDP-LOGISTIK",
+        "item3_desc": "Problemlose Lieferung von der Türkei bis zu Ihrem Standort in Spanien.",
+        "item4_title": "DESIGN & PRODUKTION",
+        "item4_desc": "Verbindung von europäischem Design mit türkischer Handwerkskunst."
+    },
+    "Projects": {
+        "title": "Kollektionen",
+        "view_all": "Alle Projekte anzeigen",
+        "item1_title": "Luxus Avangard",
+        "item2_title": "Klassik Massiv",
+        "item3_title": "Modernes Sofa",
+        "item4_title": "Gastgewerbe-Design",
+        "item5_title": "Umweltfreundliches Holz",
+        "item6_title": "Gewerbliche Lounges"
+    },
+    "Common": {
+        "view_gallery": "Galerie<br />ansehen",
+        "follow_us": "Folgen Sie uns",
+        "say_hello": "Sagen Sie Hallo unter:",
+        "information": "Information"
+    },
+    "Contact": {
+        "hero_title": "Lassen Sie uns Ihre <br /> Vision entwerfen",
+        "hero_subtitle": "Mina Design Agentur | Möbellösungen",
+        "form_title": "Möbel liegen in unserer DNA.",
+        "form_desc1": "In İnegöl aufgewachsen, wo Möbel Tradition sind. Wir verbinden dies mit technischer Präzision für höchste Qualität.",
+        "form_desc2": "Brauchen Sie einen Partner für Ihr nächstes Projekt in Spanien? Wir sprechen Ihre Sprache und verstehen die Seele des Holzes."
+    },
+    "Footer": {
+        "desc": "Brücke zwischen anatolischem Handwerk und Design.",
+        "copyright": "© {year} Mina Design Möbelbeschaffung. Alle Rechte vorbehalten."
+    }
+}

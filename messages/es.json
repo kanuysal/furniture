@@ -1,0 +1,148 @@
+{
+    "Metadata": {
+        "title": "Mina Design | Agencia de Suministro de Muebles Premium",
+        "description": "Suministro de muebles turcos exquisitos para mercados europeos. Uniendo la artesanía de Anatolia con la excelencia del diseño moderno."
+    },
+    "Navigation": {
+        "home": "Inicio",
+        "about": "Nosotros",
+        "services": "Servicios",
+        "projects": "Colecciones",
+        "contact": "Contacto"
+    },
+    "Settings": {
+        "title": "Configuración de Pantalla",
+        "dark": "Oscuro",
+        "light": "Claro"
+    },
+    "Hero": {
+        "subtitle": "Proveedor <br /> de muebles <br /> de confianza",
+        "title_part1": "Puente",
+        "title_part2": "Entre la Artesanía",
+        "title_part3": "de Anatolia",
+        "desc": "Suministro directo de muebles B2B desde İnegöl, Turquía a España. Uniendo el diseño europeo con la excelencia de la artesanía turca."
+    },
+    "About": {
+        "title": "El mueble está en nuestro ADN.",
+        "para1": "\"Para nosotros, el mueble no es solo una mercancía; es un legado. Nacidos y criados en İnegöl, el corazón de la industria del mueble en Turquía, crecimos en los talleres donde el serrín se convierte en arte.\"",
+        "para2": "Combinamos esta comprensión innata de la artesanía con la precisión de la Ingeniería Industrial (Alumni UPV). Sabemos qué madera dura toda la vida, qué tela resiste el tráfico de un hotel y qué junta nunca crujirá. No solo suministramos muebles; garantizamos 'Calidad de Herencia': piezas construidas para durar generaciones."
+    },
+    "Services": {
+        "title_subtitle": "Nuestra Experiencia",
+        "title_part1": "Suministro",
+        "title_part2": "Profesional",
+        "see_all": "Ver Todos los Servicios",
+        "item1_title": "ACCESO DIRECTO A FÁBRICA",
+        "item1_desc": "Eliminamos intermediarios en İnegöl para ofrecerle precios de fabricante directamente.",
+        "item2_title": "SOPORTE SEDE ESPAÑA",
+        "item2_desc": "Nuestro equipo en Alicante brinda soporte local y supervisión de estándares europeos.",
+        "item3_title": "LOGÍSTICA DDP",
+        "item3_desc": "Entrega puerta a puerta sin complicaciones desde Turquía a su ubicación en España.",
+        "item4_title": "DISEÑO Y PRODUCCIÓN",
+        "item4_desc": "Uniendo la estética del diseño europeo con la experta artesanía turca."
+    },
+    "Projects": {
+        "title": "Colecciones",
+        "view_all": "Ver todos los proyectos",
+        "view_gallery": "Ver Galería",
+        "item1_title": "Lujo Avangard",
+        "item2_title": "Masif Clásico",
+        "item3_title": "Sofá Moderno",
+        "item4_title": "Diseño Hotelero",
+        "item5_title": "Madera Ecológica",
+        "item6_title": "Salones Comerciales"
+    },
+    "Common": {
+        "view_gallery": "Ver<br />Galería",
+        "follow_us": "Síganos",
+        "say_hello": "Diga hola en:",
+        "information": "Información"
+    },
+    "Contact": {
+        "hero_title": "Diseñemos <br /> Su Visión",
+        "hero_subtitle": "Agencia Mina Design | Soluciones de Muebles",
+        "form_title": "El mueble está en nuestro ADN.",
+        "form_desc1": "Crecimos en İnegöl, donde el mueble es una herencia. Combinamos esto con la precisión de la ingeniería para entregar calidad de herencia.",
+        "form_desc2": "¿Necesita un socio para su próximo proyecto en España? Hablamos su idioma y entendemos el alma de la madera."
+    },
+    "Footer": {
+        "desc": "Puente entre la artesanía de Anatolia y el diseño europeo.",
+        "copyright": "© {year} Mina Design Suministro de Muebles. Todos los derechos reservados."
+    },
+    "Capacity": {
+        "title": "Capacidad Operativa",
+        "partners_label": "Socios de Fabricación",
+        "partners_desc": "Acceso directo a los mejores talleres artesanales y fábricas de alta tecnología de İnegöl.",
+        "heritage_label": "Años de Herencia",
+        "heritage_desc": "Nacido en la capital del mueble, perfeccionado con Ingeniería Industrial.",
+        "qc_label": "Control de Calidad (QC)",
+        "qc_desc": "Cada puntada y junta se inspecciona antes del envío. Cero defectos.",
+        "customs_label": "Sin complicaciones de aduanas",
+        "customs_desc": "Nos encargamos de todos los derechos de importación. Entrega directa en su puerta en España (DDP)."
+    },
+    "AboutHero": {
+        "scroll": "Desliza para explorar",
+        "subtitle": "Mina Design. <br /> Calidad de Herencia.",
+        "title": "Construyamos <br /> Algo Atemporal.",
+        "desc": "Ya sea un hotel boutique en Valencia o una villa de lujo en Marbella; tienes un socio que habla tu idioma y entiende el alma de la madera."
+    },
+    "CTA": {
+        "title_part1": "Hablemos",
+        "title_part2": "de ello",
+        "desc": "Colaboraremos para encontrar la respuesta correcta y traer progreso a su negocio y al mundo.",
+        "btn": "Ponte <br /> En Contacto"
+    },
+    "Portfolio": {
+        "filter_all": "Ver Todo",
+        "filter_luxury": "Lujo",
+        "filter_modular": "Modular",
+        "filter_natural": "Natural",
+        "filter_furniture": "Muebles",
+        "cursor_view": "Ver<br>Mejor",
+        "item1_title": "Vida Lounge",
+        "item2_title": "Zona de Confort",
+        "item3_title": "Toque Suave",
+        "item4_title": "Confort Moderno",
+        "item5_title": "Modo Relax",
+        "item6_title": "Asientos Flex",
+        "item7_title": "Serie Avangard",
+        "item8_title": "Era Dorada",
+        "item9_title": "Toque Real",
+        "item10_title": "Líneas Elegantes",
+        "item11_title": "Prestigio",
+        "item12_title": "Vibra Clásica",
+        "item13_title": "Madera Maciza",
+        "item14_title": "Esencia de Roble",
+        "item15_title": "Belleza Cruda",
+        "item16_title": "Artesanía en Madera",
+        "item17_title": "Naturaleza Pura",
+        "item18_title": "Trabajos en Madera",
+        "item19_title": "Selección Boutique",
+        "item20_title": "Piezas Esenciales",
+        "item21_title": "Vida Moderna",
+        "item22_title": "Sillas de Acento",
+        "item23_title": "Objetos de Diseño",
+        "item24_title": "Detalles Interiores"
+    },
+    "BrandSection": {
+        "title": "Qué Podemos Construir Juntos",
+        "slogan1": "Hoteles Boutique",
+        "slogan2": "Villas de Lujo",
+        "slogan3": "Fabricación a Medida",
+        "slogan4": "Retail & Tiendas",
+        "slogan5": "Restaurante & Café",
+        "slogan6": "Calidad de Herencia",
+        "desc": "Creemos en crear asociaciones basadas en la honestidad técnica y la transparencia. ¿Listo para diseñar tu proyecto?",
+        "btn": "Contacta a Nuestro Equipo de Ingeniería"
+    },
+    "FAQ": {
+        "subtitle": "Tranquilidad",
+        "title": "Tus Preguntas, <br /> Respuestas Diseñadas.",
+        "q1": "¿Se encargan de las aduanas?",
+        "a1": "Sí. Entregamos DDP (Delivered Duty Paid). Sin trámites aduaneros para usted. Nos encargamos de todo desde la frontera turca hasta su puerta en España.",
+        "q2": "¿Puedo personalizar los diseños?",
+        "a2": "Absolutamente. Somos especialistas en 'Fabricación bajo Pedido'. Dimensiones, telas, acabados e incluso la ingeniería estructural pueden ajustarse a las necesidades de su proyecto.",
+        "q3": "¿Cuál es el pedido mínimo?",
+        "a3": "Somos flexibles. Nuestra red nos permite gestionar desde una única pieza a medida para una villa de lujo hasta el mobiliario completo de un hotel de 500 habitaciones."
+    }
+}
