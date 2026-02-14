@@ -2,7 +2,13 @@
 import React from "react";
 import Image from "next/image";
 import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { fadeAnimation } from "@/utils/title-animation";
+
+if (typeof window !== "undefined") {
+  gsap.registerPlugin(ScrollTrigger);
+}
 
 
 import { useTranslations } from "next-intl";
@@ -11,11 +17,25 @@ const HeroBannerOne = () => {
   const t = useTranslations('Hero');
   const [currentVideoIndex, setCurrentVideoIndex] = React.useState(0);
   useGSAP(() => {
-
     if (typeof window !== 'undefined') {
       setTimeout(() => {
         fadeAnimation();
       }, 100)
+
+      // Video grow animation
+      gsap.fromTo(".tp-hero-bottom-img",
+        { width: "70%", borderRadius: "100px" },
+        {
+          width: "100%",
+          borderRadius: "10px",
+          scrollTrigger: {
+            trigger: ".tp-hero-bottom-img",
+            start: "top 95%",
+            end: "bottom 60%",
+            scrub: true,
+          }
+        }
+      );
     }
   }, {});
   return (
@@ -86,8 +106,8 @@ const HeroBannerOne = () => {
               </p>
             </div>
 
-            <div className="tp-hero-bottom-img-wrap tp_fade_bottom mt-50 mb-50" style={{ width: '100%', maxWidth: '100%' }}>
-              <div className="tp-hero-bottom-img" style={{ borderRadius: '10px', overflow: 'hidden', width: '100%' }}>
+            <div className="tp-hero-bottom-img-wrap tp_fade_bottom mt-50 mb-50" style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+              <div className="tp-hero-bottom-img" style={{ overflow: 'hidden', width: '70%', margin: '0 auto' }}>
                 <video
                   onEnded={() => {
                     const next = (currentVideoIndex + 1) % 5;
