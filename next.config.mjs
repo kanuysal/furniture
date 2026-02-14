@@ -11,6 +11,7 @@ const nextConfig = {
     // We can enable this if we want full static export, but for i18n we usually use node
     transpilePackages: ['next-intl'],
     output: 'export',
+    trailingSlash: true,
 };
 
 export default withNextIntl(nextConfig);
